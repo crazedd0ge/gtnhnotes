@@ -17,51 +17,59 @@ Another thing to mention is that you cannot use the same item twice. You cannot 
 
 For the sake of ease of reading and this tab of the spreadsheet looking like it has some actual content I'll list the items you have to throw into a witch's cauldron, in what order, to achieve what effect. The number in parenthesis is how much altar cost adding the ingredient adds as a brew/ritual
 
-Step 1: Capacity Mandrake Root (+1 capacity, 0 altar cost as a brew/0 altar cost as a ritual), Nether Wart (+2, 50/70), Tear of the Goddess (+2, 100/140), Diamond Vapor (+2, 150/210), Diamond (+2, 150/210), Nether Star (+4, ?/?), Pentacle (unlisted, +6, ?/?)
+#### Step 1:
+ Capacity Mandrake Root (+1 capacity, 0 altar cost as a brew/0 altar cost as a ritual), Nether Wart (+2, 50/70), Tear of the Goddess (+2, 100/140), Diamond Vapor (+2, 150/210), Diamond (+2, 150/210), Nether Star (+4, ?/?), Pentacle (unlisted, +6, ?/?)
 
 Capacity determines what the Effect(s) of the brew can be. Each Effect has a listed level, and for the brew to work the sum of every Effect's level must be equal or less than the brew's Capacity. Note that adding capacity to a brew is a one-and-done deal, so prepare enough capacity ahead of time
 
-## IMPORTANT:
-
-Step 2: Modifiers Gold Nugget (removes particle effects, 50/70), Fermented Spider Eye (modifies some specific brew effects to yield the opposite result, 25/35), Nether Brick (skip block effects, 50/70), Brick (skip entity effects, 50/70)
+#### Step 2:
+ Modifiers Gold Nugget (removes particle effects, 50/70), Fermented Spider Eye (modifies some specific brew effects to yield the opposite result, 25/35), Nether Brick (skip block effects, 50/70), Brick (skip entity effects, 50/70)
 
 As it says on the tin. Note: The book lists Fermented Spider Eye here, and says to repeat from step 3 when adding multiple effects. This is incorrect: You can repeat from step 2 when adding multiple effects, at least for the purposes of using Fermented Spider Eye to modify the brew's effects
 
-Step 3: Power Glowstone Dust (50/70), Blaze Rod (100/140), Attuned Stone (Charged) (150/210)
+#### Step 3:
+Power Glowstone Dust (50/70), Blaze Rod (100/140), Attuned Stone (Charged) (150/210)
 
 Modifies the power of the next effect you'll add, though not all effects benefit from this. Each item added increases the brew's power by 1
 
-Step 4: Duration Redstone Dust (50/70), Obsidian (100/140), Minedrake Bulb (150/210)
+#### Step 4:
+ Duration Redstone Dust (50/70), Obsidian (100/140), Minedrake Bulb (150/210)
 
 Modifies the duration of the next effect, though of course not all effects will benefit from this. One item doubles duration, two triples it, and all three quadruple it
 
-Step 5: Effect
-
-## (Far, far too many items to list)
+### Step 5:
+ Effect (Far, far too many items to list)
 
 Reference the book for a full list of effects, their level, and their brew/ritual altar power cost (hover over an item to see the altar power cost listed in the tooltip). Also keep in mind that altar costs vary wildly depending on ingredients - Grow Flowers requires 0, but Shifting Seasons requires 5000
 
-Step 6: Repeat/Bottle/Proceed At this point you've got a few options. If you wish to add another effect (though keep your brew's capacity in mind), return to step 2 (the book says step 3, but you will need to return to step 2 if you want to add an effect that requires a Fermented Spider Eye modifier). If your brew is ready and something you're intending to drink yourself, grab enough empty bottles to take out however many brews you're able to craft given your experience level (and/or the Brew Bottling effect). If you're brewing Combustion/Endless Water wait for the cauldron to spit it out - don't try to take it out with empty bottles or you'll end up with a dud brew instead (not sure why it works like that, but it does, so...there you go). Finally, if you want to turn your brew into a splash potion (either a regular splash potion, a gaseous potion, a liquid potion, or a triggered potion) proceed to step 7
+#### Step 6:
+Repeat/Bottle/Proceed At this point you've got a few options. If you wish to add another effect (though keep your brew's capacity in mind), return to step 2 (the book says step 3, but you will need to return to step 2 if you want to add an effect that requires a Fermented Spider Eye modifier). If your brew is ready and something you're intending to drink yourself, grab enough empty bottles to take out however many brews you're able to craft given your experience level (and/or the Brew Bottling effect). If you're brewing Combustion/Endless Water wait for the cauldron to spit it out - don't try to take it out with empty bottles or you'll end up with a dud brew instead (not sure why it works like that, but it does, so...there you go). Finally, if you want to turn your brew into a splash potion (either a regular splash potion, a gaseous potion, a liquid potion, or a triggered potion) proceed to step 7
 
-Step 7: Extent Wood Ash (50/70), Cocoa Beans (100/140), Wispy Cotton (150/210)
+#### Step 7:
+Extent Wood Ash (50/70), Cocoa Beans (100/140), Wispy Cotton (150/210)
 
 Changes the size a splash potion effects. Note that not all brews are effected by this - most notably Shifting Seasons brews gain an increased area of effect based on their effect's Power, not based on Extent
 
-Step 8: Lingering Belladonna Flower (50/70), Lapis Lazuli (100/140), End Stone (150/210)
+#### Step 8:
+Lingering Belladonna Flower (50/70), Lapis Lazuli (100/140), End Stone (150/210)
 
 Increases the amount of time that a splash potion's effect will stay around. This effect is separate from Duration - a low Duration/high Lingering splash potion will apply a short lived effect for a long time, whereas a high Duration/low Lingering effect with briefly apply a long lasting potion effect
 
-Step 9: Dispersal Method Gunpowder or Water Artichoke Globe (vanilla splash potion, 0/0), Wool of Bat (splash potion creates a lingering gas cloud, 0/0), Wormwood (splash potion creates a liquid which vanishes after some time, 0/0), Zombie Head (creates a trigger for the potion, basically setting a trap, 0/0)
+#### Step 9:
+Dispersal Method Gunpowder or Water Artichoke Globe (vanilla splash potion, 0/0), Wool of Bat (splash potion creates a lingering gas cloud, 0/0), Wormwood (splash potion creates a liquid which vanishes after some time, 0/0), Zombie Head (creates a trigger for the potion, basically setting a trap, 0/0)
 
 Determines what kind of splash potion your brew will be, since Witchery has more types than just the vanilla version. What type of splash potion a brew is will be listed in the tooltip after the brew is ready. The Zombie Head trigger method is an ordeal in and of itself which, frankly, I don't think has any practical use except in multiplayer. Which I never play, so...can't really comment too much on that one
 
 At this point all that's left to do is either take out your brews with empty bottles, or prepare to cast it as a ritual. Note that based on my (very limited) testing there doesn't seem to be a benefit to ritual casting save for the ability to target remote places/players, which in single player I can't imagine a practical use case for, so for the moment I have no idea if there's a point in casting brews as a ritual (in SP)
 
+---
+
 Brewing Expertise, or "how to get 2-10x the Shifting Seasons output for less than 2-10x the effort" (15 and 30x is also available, but citation needed on that taking less than 15/30x the effort)
 
 One potentially important mechanic which is mentioned in the Witches' Brews guidebook, but otherwise is not plainly visible anywhere, is a player's expertise at creating complex witches' brews. Based on (admittedly limited) testing every 30 brews you bottle that is of a greater complexity than your level of expertise you gain an expertise level, made clear by a chat message telling you as much, which reduces the amount of brew required per bottle. This may not (yet) affect particularly complex brews, or may only enable the Witches' Hat and Witches' Robes to have a noticeable impact, but either way it means you've become more skilled at creating complex brews
 
-Important information: Witches' Hat/Robes are not chance based when making complex brews. The "chance at a second brew" bit listed in the tooltip refers to the simple brews made in a Kettle. Complex brews made in a Witches' cauldron will always benefit from wearing Witches' gear You gain expertise experience per brew you bottle, not per brew you complete in a cauldron. Getting triple the yield out of a particularly complex brew will likewise triple the experience you get towards the next level of brewing expertise Only the actual level of the brew's effects determine whether it contributes to your expertise. I.E. an extended Speed IV brew contributes as much as a regular Speed brew
+#### Important information:
+Witches' Hat/Robes are not chance based when making complex brews. The "chance at a second brew" bit listed in the tooltip refers to the simple brews made in a Kettle. Complex brews made in a Witches' cauldron will always benefit from wearing Witches' gear You gain expertise experience per brew you bottle, not per brew you complete in a cauldron. Getting triple the yield out of a particularly complex brew will likewise triple the experience you get towards the next level of brewing expertise Only the actual level of the brew's effects determine whether it contributes to your expertise. I.E. an extended Speed IV brew contributes as much as a regular Speed brew
 
 | Diamond | Expertise 1 | Expertise 2 | Expertise 5 | Final Expertise |  |
 |:---|:---:|:---:|:---:|:---:|:---|
@@ -185,24 +193,28 @@ Unfortunately the above should be taken as a guideline moreso than anything else
 
 Above is a (more than likely incomplete) list of what blocks give how much power to a nearby Witchery Altar, up to how many blocks. Note that a Witchery altar will check a 31x31x31 cube centered on the last altar block placed for these blocks. For ease of reference let's call that the "core" altar block. Note that each row is it's own seperate list of items. You can use 80 dirt, 40 dirt and 40 podzol, or 80 podzol to get the same effect. Similarly 50 Oak/Birch/Jungle/Spruce Leaves in any combination maxes out that row, but this will not contribute to the number of I.E. Dark Wood/Acacia Leaves row. I have tested other blocks which seem like they should work, but don't actually contribute to altar power - things like Lilly Pads, Nether Wart, Wormwood, etc. It's possible they do contribute to altar power in other versions of Witchery, but in GTNH they don't appear to have any effect. That said I've obviously not tested every single item in the entire pack, so chances are there's more blocks that contribute to altar power that I simply didn't test or that slipped through the cracks. In any case the above list should be sufficient for a supremely powerful Witchery Altar, though
 
-Specific items can be placed on a Witchery Altar to further increase it's power, recharge rate, and effective area (meaning how far away items that need Witchery Altar power can be from the altar. The 31x31x31 range for valid altar blocks does not change). Only one of each catagory, though. They are: Skeleton Skull | Wither Skeleton Skull | Player Head. Increases the Altar's power and recharge rate. Player Heads can be crafted in single player through a Botania recipe that is not listed in NEI (check the Lexica Botania, though note it is Elven Knowledge) or as a one-time questbook reward Torch | Candelabra. Increases the Altar's recharge rate Pentacle. Increases the Altar's recharge rate. Note that Kobaldite Dust is a rare drop from Twilight Kobolds, although you'll still have to refine it the normal way Chalice | Chalice (Filled). Increases the Altar's power Arthana. Doubles the Altar's range, meaning it can power rituals and devices from further away. It will not look further for blocks that increase altar power, however Infinity Egg. Massively increases the Altar's power and recharge rate. Usually Creative mode exclusive it does have a crafting recipe in GTNH...though it costs about as much as you'd expect a normally Creative exclusive item to cost
+Specific items can be placed on a Witchery Altar to further increase it's power, recharge rate, and effective area (meaning how far away items that need Witchery Altar power can be from the altar. The 31x31x31 range for valid altar blocks does not change). Only one of each catagory, though. They are:
+**Skeleton Skull** | **Wither Skeleton Skull** | **Player Head** Increases the Altar's power and recharge rate. Player Heads can be crafted in single player through a Botania recipe that is not listed in NEI (check the Lexica Botania, though note it is Elven Knowledge) or as a one-time questbook reward  **Torch** | **Candelabra** Increases the Altar's recharge rate **Pentacle** Increases the Altar's recharge rate. Note that Kobaldite Dust is a rare drop from Twilight Kobolds, although you'll still have to refine it the normal way **Chalice** | **Chalice** (Filled). Increases the Altar's power
+**Arthana** Doubles the Altar's range, meaning it can power rituals and devices from further away. It will not look further for blocks that increase altar power, however **Infinity Egg.** Massively increases the Altar's power and recharge rate. Usually Creative mode exclusive it does have a crafting recipe in GTNH...though it costs about as much as you'd expect a normally Creative exclusive item to cost
 
 ## Circle Magic
 
 What you cannot accomplish with custom brews you can sometimes accomplish with circle magic. I won't list every circle magic ritual here because there's a ton of them and not all are useful, but I'll mention a few outliners Note that you can fully automate circle magic. Giving the heart glyph a redstone signal will activate it, and various forms of item droppers can be used to automatically supply the necessary items to start a particular ritual
 
-Rite of Sky's Wrath (page 31)
-
-## Rite of Total Eclipse (page 34)
+#### Pages
+##### Rite of Sky's Wrath (page 31)
+Summons a thunderstorm. It's worth noting because Lightning Rods, as a power source, are not a joke when there's a thunderstorm going on, and this is (to my knowledge) the only way to fully automate generating thunderstorms whenever the sky is clear
+##### Rite of Total Eclipse (page 34)
+Sets the time to midnight. Useful? Not particularly in a pack without Astral Sorcery (and with Blood Magic's Imperfect Ritual Stone for that matter), but it's an option if you need it to be midnight
 
 ## Shifting Seasons mob farms
 
 Brews of Shifting Seasons allow you to place down biomes you wouldn't normally find in the overwold, and those biomes are able to spawn mobs you wouldn't normally be able to encounter. If those mobs happen to have interesting drops, well, you can see where this is going
 
-| Biome | Mob |  | Drop(s) |  | Comment |
-|:---|:---|:---|:---|:---|:---|
-| asteroids | Evolved Galacticraft variants |  | Various GC oxygen equipment |  | The good drops are all at very low odds, so a Cursed Earth setup with enchanted Diamond Spikes will help a lot in getting the stuff you actually want |
-| Toxic Everglades | Staballoy Construct |  | Staballoy ingots/plates |  | Staballoy Constructs will attack nearby mobs, which will cause explosions and all kinds of mess. Farming these guys using an Extreme Extermination Chamber is highly adviseable |
+| Biome | Mob | Drop(s) | Comment |
+|:------|:----|:--------|:--------|
+| asteroids | Evolved Galacticraft variants | Various GC oxygen equipment | The good drops are all at very low odds, so a Cursed Earth setup with enchanted Diamond Spikes will help a lot in getting the stuff you actually want |
+| Toxic Everglades | Staballoy Construct | Staballoy ingots/plates | Staballoy Constructs will attack nearby mobs, which will cause explosions and all kinds of mess. Farming these guys using an Extreme Extermination Chamber is highly adviseable |
 
 Tips and tricks: Infusion of Otherwhere allows you to (effectively) Mark/Recall interdimensionally at a minor cost. This requires an EV PLE for Manyullyn Crystals for Otherwhere Chalk and doing the Witchery Spirit World for Brew of Flowing Spirit You can also accomplish the same with Waystones, however they require two Otherwhere Chalk per waystone (which are single use) and carting around a Cricle Talisman (or Otherwhere and Golden Chalk) to place down a small circle of Otherwhere to use Bound Waystones
 

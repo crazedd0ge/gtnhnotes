@@ -199,15 +199,33 @@ Once you get to the higher tier of bee combs you'll find yourself needing acids 
 
 There's a grand total of two ways to craft Phthalic acid - the Lithium way, and the 1,2-Dimethylbenzen way. The former is viable if you're producing rocket fuel for power, basically as a byproduct, otherwise I would not recommend it at all. The 1,2-D method is the default way to produce Phthalic acid
 
-| Phthacid Acid/t  | Acid EV LCRs | Potassium Dichromate Dust/t |     | PDD HV LCRs  | Chromium Trioxide dust/t   |             | CrO3 MV LCRs | Chromium Dioxide dust/t |     | CrO2 LV LCRs | Chrome dust/t             |     |     | C9 HV LCRs (NO + O -> NO2)                 |
-| :--------------- | :----------- | :-------------------------- | :-- | :----------- | :------------------------- | :---------- | :----------- | :---------------------- | :-- | :----------- | :------------------------ | :-- | :-- | :----------------------------------------- | ------------------------------------------------ |
-| 10               | 1            | 0.001111111111              |     | 0.0101010101 | 0.0008080808081            |             | 0.0202020202 | 0.0006060606061         |     | 0.1616161616 | 0.000202020202            |     |     | 0.001795735129                             |
-|                  |              | mb/t Oxygen consumed        |     |              | mb/t Oxygen produced       |             |              | mb/t Oxygen consumed    |     |              | mb/t Oxygen consumed      |     |     | C24 LV LCRs (NO2 + O + H2O -> Nitric Acid) |
-|                  |              | 60                          |     |              | 0.303030303                |             |              | 0.202020202             |     |              | 0.404040404               |     |     | 0.03232323232                              |
-| EU/t cost        |              | mb/t 1,2-Dimethylbenzen     |     |              | Potassium Nitrate          | Saltpeter/t |              |                         |     |              |                           |     |     |                                            | C1 LV LCR (K + Nitric Acid -> Potassium Nitrate) |
-| 1932.121212      |              | 10                          |     |              | 0.00101010101              |             |              |                         |     |              |                           |     |     | 0.0202020202                               |
-| Nitric loop cost |              |                             |     |              | mb/t Nitric Oxide produced |             |              |                         |     |              | Total mb/t oxygen deficit |     |     | Nitric loop total mb/t oxygen deficit      |
-| 1.62962963       |              |                             |     |              | 0.202020202                |             |              |                         |     |              | 60.3030303                |     |     | 60.60606061                                |
+| Process Step | Input/Output | Amount | Additional Info |
+|:------------|:-------------|:-------|:----------------|
+| **Phthacid Acid Production** | | |
+| EV LCRs | Processing Rate | 10/t | EU/t cost: 1932.121212 |
+| | 1,2-Dimethylbenzen | 10 mb/t |
+| **Potassium Dichromate** | | |
+| HV LCRs | Production Rate | 0.001111111111/t |
+| | Output Rate | 0.0101010101/t |
+| **Chromium Trioxide** | | |
+| MV LCRs | CrO3 dust Rate | 0.0008080808081/t |
+| | O₂ Consumed | 0.202020202 mb/t |
+| **Chromium Dioxide** | | |
+| LV LCRs | CrO₂ dust Rate | 0.0006060606061/t |
+| | O₂ Consumed | 0.404040404 mb/t |
+| **Chrome Production** | | |
+| LV LCRs | Chrome dust Rate | 0.000202020202/t |
+| | O₂ Consumed | 0.03232323232 mb/t |
+| **Nitric Acid Process** | | |
+| HV LCRs (NO + O → NO₂) | O₂ Consumed | 0.001795735129 mb/t |
+| LV LCRs (NO₂ + O + H₂O → HNO₃) | Process Rate | 0.0202020202/t |
+| | NO Production | 0.202020202 mb/t |
+| **Potassium Nitrate** | | |
+| LV LCR (K + HNO₃ → KNO₃) | Saltpeter Rate | 0.00101010101/t |
+| **Process Totals** | | |
+| Oxygen Balance | Total Deficit | 60.60606061 mb/t |
+| | Nitric Loop Deficit | 60.3030303 mb/t |
+| Nitric Loop | Total Cost | 1.62962963 |
 
 So the above mess is mostly straightforward, bar one point: Potassium Nitrate and Saltpeter. Saltpeter, essentially, is a combination of Potassium dust and Nitric Acid. You can use Potassium Nitrate as a way to produce Phthalic Acid while keeping the Nitric Acid in a closed loop, only actually consuming Potassium dust, or you can use this production line as a sideways method of extracting the nitric acid from saltpeter in the form of Nitric Oxide. Is it worth doing? Maybe, maybe not. The more relevant point for beekeepers is that Salt bees can produce Saltpeter. No bee can produce Potassium dust directly, the most direct method is honestly the Salt bee's saltpeter dust again. So as far as producing Phthalic acid for comb processing is concerned, given that if you're producing it you're probably neck-deep in bees anyhow, saltpeter is probably the way to go
 

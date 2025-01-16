@@ -4,26 +4,52 @@ title: Food
 ---
 
 # Food
-One of the things you're going to need to manage in GTNH, especially if you're not the kind of player that writes off freely teleporting kilometers worth of distance as much as you want as "quality of life", is keeping yourself fed. And there are many ways to make it easier, or worth doing. So let's examine the food situation in GTNH. And, perhaps more specifically, in MC version 1.7.10
 
-For those used to more modern versions (although I use that term loosely, as I'm talking about MC version 1.11+ here. GTNH runs on 1.7.10 for the record) actions in general consume a lot more food than they do in later versions, with the act of walking/sneaking being a standout as consuming food at all in this version. Add on the need to simply do a lot more stuff in GTNH compared to a more vanilla-like playthrough, and you're looking at a measurable quantity of food to keep yourself fed. Not that there aren't ways, as said before, but keep in mind you are likely going to need to exceed expectations
+### Food Management in GTNH
 
-Minimizing food consumption The best way to keep your food situation in check is, quite simply, to not consume more food than is necessary in the first place. Sprinting is a major contributor to early food consumption rates, so consider - literally - taking a more casual stroll through the extremely early game. At default speed you can walk about 5-6 blocks before getting a tick of exhaustion, whereas sprinting ticks up exhaustion every single block worth of distance. Once you have your supply of food sorted out feel free to sprint all over the place, you can afford it. But early on consider taking a more slow but steady approach
+In GTNH, managing your food supply becomes crucial, especially if you don't consider unlimited teleportation as mere "quality of life." Let's examine the food situation in GTNH, specifically in Minecraft version 1.7.10.
 
-Another tried and true food saving strategy - albeit one less useful in GTNH specifically - is using half slabs to avoid having to jump up blocks. This is complicated in GTNH because of the need for a saw to cut most blocks into slabs, but if you happen to find either Railcraft stones or Snow (although snowy biomes tend to be full of packs of hostile direwolves, so maybe avoid those if possible) you can craft those into slabs without a saw. In addition you don't need any tools to craft cobblestone into cobblestone stairs, so consider using those as an alternative solution to avoid the need to jump as well
+### Food Consumption Differences
 
-Of course an alternative to both is to outsource the need to run and/or jump at all, by means of taming a horse. Horses can be found in the overworld, although I'm not sure what biomes they're more/less likely to spawn in. Saddles can be bought from Burcher villagers or crafted with some difficulty (tools and a considerable amount of leather will be needed), but are available pre-steam. Leads can likewise be crafted pre-steam, although they'll require a slimeball. If you're the kind of player whos horses have an annoying, yet at times miraculous tendency to find ways of offing themselves even in the most implausible of scenarios the first soul vial-type item for passive mobs you can get is a Golden Lasso in early LV
+For players familiar with modern versions (Minecraft 1.11+), actions generally consume more food in GTNH's 1.7.10. Walking and sneaking notably consume food, unlike in later versions. Combined with GTNH's increased gameplay requirements compared to vanilla Minecraft, you'll need a substantial food supply to stay well-fed.
 
-Another option to reduce food consumption, albeit one that won't really come into play until later, is to increase your walking speed. Walking/sprinting consumes food based on how long your spend walking/sprinting, regardless of how fast your actual movement speed is. Early on your can make TiC Brownstone Road to slightly (and inconsistently - I actually wouldn't recommend it, but it's an option) increase your movement speed. In LV you'll be able to make GT Light Concrete which gives a moderate speed boost, and chisel that into Chisel concrete that gives a more significant speed boost. In MV you're able to craft Ztones Booster pads to give you a two second Speed IV effect (it lists 00:01, but takes two seconds to go away), which is useful for going in a straight line very quickly and efficiently...although by MV you'll likely want it for the speed moreso than saving hunger sprinting around
+## Minimizing Food Consumption
 
-| Booster Distances [1] |  | Walking [3] | Sprinting | Traveller Boots (w) | Traveller Boots (s) | Nano Boots (w) | Nano Boots (s) |  |  |  |  |  |  |  |
-|:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---|:---|:---|:---|:---|:---|:---|
-| Grass [2] |  | 14 | 18 | 18 | 22 | 32 | 36 |  |  |  |  |  |  |  |
-| Brownstone Road |  | 18 | 18 | 19 | 22 | 32 | 36 |  |  |  |  |  |  |  |
-| GT Concrete |  | 18 | 24 | 24 | 28 | 42 | 48 |  |  |  |  |  |  |  |
-| Chisel Concrete |  | 26 | 33 | 33 | 41 | 61 | 67 |  |  |  |  |  |  |  |
+### Basic Movement
+The most effective way to manage your food situation is to minimize unnecessary consumption. Sprinting significantly impacts early-game food consumption rates. Consider walking during the early game - at default speed, you can walk 5-6 blocks before getting a tick of exhaustion, while sprinting causes exhaustion every single block.
 
-Notes: [1] Listed here is the optimal number of blocks between two Ztones Boosters, given a certain floor/equipment set, to ensure that the speed boost is maintained when going in a straight line. Basically, optimal placement for optimal travel speed [2] Technically should apply to all blocks without a speed bonus/penalty, but testing this for every block would be...not easy [3] Assuming no speed boost or penalty. For the record, the Nanoboots of the Traveller are assuming 100% setting on the speed modulation
+### Terrain Navigation
+Using half slabs to avoid jumping is a traditional food-saving strategy, though it's more challenging in GTNH due to needing a saw. However, you can craft:
+- Railcraft stones into slabs without a saw
+- Snow into slabs without tools (though beware of direwolves in snowy biomes)
+- Cobblestone into stairs without tools
+
+### Alternative Transportation
+Consider taming a horse to avoid running and jumping entirely. Horses spawn in the overworld (though specific biome rates vary). Pre-steam options include:
+- Saddles: Available from Butcher villagers or craftable (requires tools and leather)
+- Leads: Craftable but require slimeballs
+- Golden Lasso: First soul vial-type item for passive mobs (available in early LV)
+
+### Movement Speed Upgrades
+Since food consumption is time-based rather than distance-based, increasing movement speed can help efficiency:
+- Early Game: TiC Brownstone Road (slight, inconsistent boost - not highly recommended)
+- LV: GT Light Concrete (moderate boost)
+- LV: Chiseled concrete (significant boost)
+- MV: Ztones Booster pads (Speed IV effect for two seconds, ideal for straight-line travel)
+
+By MV tier, speed enhancement becomes more about efficiency than hunger management.
+
+| Booster Distances | Walking | Sprinting | Traveller Boots (w) | Traveller Boots (s) | Nano Boots (w) | Nano Boots (s) |
+|:-----------------|:--------:|:---------:|:------------------:|:------------------:|:-------------:|:-------------:|
+| Grass | 14 | 18 | 18 | 22 | 32 | 36 |
+| Brownstone Road | 18 | 18 | 19 | 22 | 32 | 36 |
+| GT Concrete | 18 | 24 | 24 | 28 | 42 | 48 |
+| Chisel Concrete | 26 | 33 | 33 | 41 | 61 | 67 |
+
+### Notes:
+- Listed here is the optimal number of blocks between two Ztones Boosters, given a certain floor/equipment set, to ensure that the speed boost is maintained when going in a straight line. Basically, optimal placement for optimal travel speed
+- Technically should apply to all blocks without a speed bonus/penalty, but testing this for every block would be...not easy
+- Assuming no speed boost or penalty. For the record, the Nanoboots of the Traveller are assuming 100% setting on the speed modulation
 
 As you can see, walking around with Nanoboots is about as fast as sprining on Chisel concrete without any boots. For this reason the Thaumcraft boost are incredible items to reduce your overall food consumption speed given you won't have to sprint everywhere with them anymore. For the record there is also a Haste enchantment that goes on boots, which increaes your movement speed depending on the strength of the enchantment (up to level III normally), but long term this would only see use on Ichorcloth/Boots of the Horizontal Shield. It can also be put on regular Boots of the Traveller, though
 
@@ -67,12 +93,34 @@ Balancing Nutrients and food demands In GTNH there are seven edible foods that y
 
 Below I'll list some suggestions for relatively easy, nutritious and filling food that's available at a given early tech level. The letters in paranthesis will note whether a food contains dairy, fruit, grain, protein and/or vegetable
 
-| Stone Age [1]: | Berry Medley (F) |  | Chicken Celery Casserole (PV) |  | Cucumber Salad (V) |  | Grape/Strawberry Salad (F) |  | Roasted Root Veggie Medley (V) |  | Pork Lettuce Wrap (PV) |  | Stuffed Eggplant (DPV) |  |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| Tool Age [2]: | Beef Wellington (GPV) |  | Beet Burger (FGPV) |  | BLT (GPV) |  | Blueberry Pancake (DFGP) |  | Cornbread (DGP) |  | PB&J Sandwitches (FGP, mainly) |  | Leek Bacon Soup (DPV) |  |
-| Steam Age [3]: | Curry Rice (FGV) |  | Delighted Meal (DFGPV) |  | Deluxe Chicken Curry (DFGPV) |  | Hearty Breakfast (DGPV) |  | Random Taco (DFGPV) |  | Ploughman's Lunch (DFGPV) |  | Sausage in Bread (GPV) |  |
+| Age | Food (Categories) |
+|:---|:------------------|
+| Stone Age | Berry Medley (F) |
+| | Chicken Celery Casserole (PV) |
+| | Cucumber Salad (V) |
+| | Grape/Strawberry Salad (F) |
+| | Roasted Root Veggie Medley (V) |
+| | Pork Lettuce Wrap (PV) |
+| | Stuffed Eggplant (DPV) |
+| Tool Age | Beef Wellington (GPV) |
+| | Beet Burger (FGPV) |
+| | BLT (GPV) |
+| | Blueberry Pancake (DFGP) |
+| | Cornbread (DGP) |
+| | PB&J Sandwiches (FGP) |
+| | Leek Bacon Soup (DPV) |
+| Steam Age | Curry Rice (FGV) |
+| | Delighted Meal (DFGPV) |
+| | Deluxe Chicken Curry (DFGPV) |
+| | Hearty Breakfast (DGPV) |
+| | Random Taco (DFGPV) |
+| | Ploughman's Lunch (DFGPV) |
+| | Sausage in Bread (GPV) |
 
-Notes: [1] In the Stone Age you don't yet have a full set of cooking tools, no machines, and perhaps a few furnaces to your name. Animal traps are on the table, though they're not cheap. Claim lootbags and general quest rewards to get more food from the void, because farming isn't going to be great this early [2] Once you've got access to Iron you'll be able to craft the rest of the kitchen tools and a cauldron to wash flour into dough (one stack at a time, ideally). This opens up plenty of new food options, so it's well worth investing the iron into upgrading your cooking capabilities [3] The Steam age gives your kitchen an infinite source of Fresh Water and Edible Salt, hopefully a good supply of meat from animal traps, and perhaps even some steam machines (possibly retired after your actual factory enters LV). Exploring to find new fruit is also much more reasonable at this stage
+### Notes:
+- In the Stone Age you don't yet have a full set of cooking tools, no machines, and perhaps a few furnaces to your name. Animal traps are on the table, though they're not cheap. Claim lootbags and general quest rewards to get more food from the void, because farming isn't going to be great this early
+- Once you've got access to Iron you'll be able to craft the rest of the kitchen tools and a cauldron to wash flour into dough (one stack at a time, ideally). This opens up plenty of new food options, so it's well worth investing the iron into upgrading your cooking capabilities
+- The Steam age gives your kitchen an infinite source of Fresh Water and Edible Salt, hopefully a good supply of meat from animal traps, and perhaps even some steam machines (possibly retired after your actual factory enters LV). Exploring to find new fruit is also much more reasonable at this stage
 
 Tips and Tricks: If you want to lose hunger quickly to rapidly eat new food you need to left-click animals with a Healing Axe. No, the irony is not lost on me. This supposedly heals the animal at the cost of hunger, although I've not seen it work that way before. Regardless, you will lose food real quick in any case One nutrient type you're likely to be short on early is Dairy. Crafting Yogurt with (soy) milk and excess leather (see animal traps) is a good way to stretch your milk supplies without needing salt to produce cheese or butter. Once you've got passive water you can mass produce Edible Salt, though Got a collection of useless dyes from a lootbag? Throw the red, orange, yellow, green, blue, purple and magenta in your kitchen, combine with bacon (or mince meat), and enjoy several days worth of extremely filling Epic Bacon. Don't mind the dyes being made with sulfuric acid, Steve can handle it
 
@@ -84,42 +132,44 @@ My recommendation if you insist on using this quest to get a Healing Axe is to h
 
 With that out of the way let's break down exactly what you' ll need to complete this quest. Although if the answer isn't "a bit of time working in your kitchen" you may wish to strongly consider setting up some infrastructure before diving straight into the deep end. In general that's good practice in GTNH
 
-| Gardens (8 of each) |  | Tofu (128 of both) |  | Delighted Meal (20) |  | Hearty Breakfast (20) |  | Rainbow Curry (20) |  | Supreme Pizza (20) |  | Sausage in Bread (20) |  | Beef Wellington (20) |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| Leafy Garden |  | Firm Tofu |  | Deluxe Cheeseburger |  | [Cooked Pork] |  | Skillet |  | Knife/Cutting Board |  | Maple Sausage |  | [Raw Beef] |
-| Mushroom Garden |  | Silken Tofu |  | (Zucchini) Fries |  | Fried Egg |  | Curry Rice |  | Pizza |  | Bread |  | Dough |
-| Stalk Garden |  |  |  | [Fruit Smoothie] |  | Toast |  | Lavender |  | Bellpepper |  | Ketchup |  | [Mushroom] |
-| Textile Garden |  | Silken Tofu |  |  |  | Potato Cakes |  | Bowl |  | Onion |  | Onion |  | Spinach |
-| Tropical Garden |  | Firm Tofu |  | Fries |  | [Fruit Juice] |  | Blue Orchid |  | Spice Leaf |  |  |  |  |
-| Nether Garden |  |  |  | Rolling Pin/Bakeware |  |  |  | Poppy |  |  |  | Maple Sausage |  | Dough |
-| Ground Garden |  | Firm Tofu |  | Potato |  | Fried Egg |  | Grass |  | Pizza |  | [Raw Beef] |  | Flour |
-| Berry Garden |  | Soft Mallet |  | Salt |  | Skillet |  | Burning Blossom |  | Rolling Pin/Bakeware |  | Spice Leaf |  | Water |
-| Desert Garden |  | Wet Tofu |  |  |  | [Egg] |  | Dandelion |  | Dough |  | Maple Syrup |  |  |
-| Grass Garden |  |  |  | Deluxe Cheeseburger |  |  |  |  |  | Tomato |  |  |  | Flour |
-| Gourd Garden |  | Wet Tofu |  | Cheeseburger |  | Potato Cakes |  | Curry Rice |  | Cheese |  | Bread |  | [Grain] |
-| Herb Garden |  | Soybean |  | Lettuce |  | Skillet |  | Saucepan |  | [Raw Pork] |  | Dough (bread shape) |  |  |
-| Water Garden |  | water |  | Tomato |  | Onion |  | Rice |  |  |  |  |  |  |
-|  |  |  |  |  |  | Potato |  | Salt |  | Dough |  | Dough |  |  |
-| A note on Tofu: With access to a Centriuge (either the LV |  |  |  | Cheeseburger |  | Butter |  | Chili Pepper |  | Flour |  | Flour |  |  |
-| version or the steam multiblock version introduced in 2.7) |  |  |  | Hamburger |  |  |  | Coconut Milk |  | Water |  | Water |  |  |
-| and a Compressor you can turn 1 Wet Tofu into 1.5 Silken |  |  |  | Cheese |  | Butter |  | [Spice] |  |  |  |  |  |  |
-| Tofu (+0.5 Soy Milk), than compress Silken Tofu into Firm |  |  |  |  |  | Saucepan |  |  |  | Flour |  | Flour |  |  |
-| Tofu 1:1. The soft mallet chain is 1:1:1:1, for the record |  |  |  | Hamburger |  | [Heavy Cream] |  | Coconut Milk |  | [Grain] |  | [Grain] |  |  |
-|  |  |  |  | Skillet |  | Salt |  | Soft Mallet/Juicer |  |  |  |  |  |  |
-| Also note that a Mixer - again either the LV machine or the |  |  |  | [Raw Beef] |  |  |  | Coconut |  |  |  | Ketchup |  |  |
-| 2.7 introduced steam multiblock version - reduces the water |  |  |  | Toast |  |  |  |  |  |  |  | Soft Mallet/Juicer |  |  |
+| Item Type | Components & Notes |
+|:----------|:------------------|
+| **Gardens (8 of each)** | Leafy Garden, Mushroom Garden, Stalk Garden, Textile Garden, Tropical Garden, Nether Garden, Ground Garden, Berry Garden, Desert Garden, Grass Garden, Gourd Garden, Herb Garden, Water Garden |
+| **Tofu Production (128)** | |
+| Firm Tofu | Requires: Soft Mallet, Wet Tofu |
+| Silken Tofu | Requires: Wet Tofu, water, Soybean |
+| **Recipes (20 each)** | |
+| Delighted Meal | - Base: Deluxe Cheeseburger, Fries, Fruit Smoothie |
+| | - Components: Potato, Salt, Lettuce, Tomato, Cheese, Hamburger, Raw Beef, Skillet |
+| Hearty Breakfast | - Main: Cooked Pork, Fried Egg, Toast, Potato Cakes |
+| | - Components: Butter, Heavy Cream, Salt, Skillet, Saucepan |
+| Rainbow Curry | - Base: Curry Rice, Bowl |
+| | - Flowers: Lavender, Blue Orchid, Poppy, Grass, Burning Blossom, Dandelion |
+| | - Spices: Chili Pepper, Coconut Milk, Rice, Salt |
+| Supreme Pizza | - Base: Pizza, Dough |
+| | - Toppings: Bellpepper, Onion, Spice Leaf, Tomato, Cheese, Raw Pork |
+| | - Tools: Knife/Cutting Board, Rolling Pin/Bakeware |
+| Sausage in Bread | - Main: Maple Sausage, Bread |
+| | - Components: Ketchup, Onion, Dough, Flour, Water |
+| Beef Wellington | - Main: Raw Beef, Dough |
+| | - Components: Mushroom, Spinach, Flour, Water, Grain |
 
-cost of turning Soybeans into Wet Tofu by 10x to 5x, depending on which manual recipe you used before Bread A mixer is also able to double the dough yield from flour,
+**Special Notes:**
+1. Ingredients in [brackets] have multiple options:
+   - [Raw Beef]/[Raw Pork] can use raw meat, Firm Tofu, or Mincemeat
 
-| although this will come at the cost of (effectively) higher |  |  |  | Bread |  |  | The ingredients in [brackets] have multiple possible options: |  |  |  |  |  |  |  |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| higher water cost compared to throwing a stack of flour into |  |  |  | Dough (bread shape) |  |  | [Raw Beef]/[Raw Pork] can use the respective raw meat, Firm Tofu, or Mincemeat |  |  |  |  |  |  |  |
+2. Tofu Production Tips:
+   - Using Centrifuge (LV or steam multiblock): 1 Wet Tofu → 1.5 Silken Tofu + 0.5 Soy Milk
+   - Compress Silken Tofu into Firm Tofu 1:1
+   - Soft mallet chain is 1:1:1:1
+   - Mixer (LV or steam multiblock) reduces water cost for Soybean → Wet Tofu by 5-10x
+   - Mixer can double dough yield from flour (higher water cost)
 
 a vanilla cauldron Dough Flour Water [Egg] can use an egg or Firm Tofu Flour
 
-## [Grain]
+## Grains
 
-Most of these ingrdients (and processes, for that matter) are completely straightforward, and with access to LV machines you can also craft bulk amounts of Forestry Fertilizer to straight up not care about exactly how many stacks of wheat/rice/etc. you need because you can just slam down a stack of fertilizer like it's nothing and get more. Ingredients that deserve special attention are Lavender, Burning Blossom, Coconut and Maple Syrup
+Most of these ingredients (and processes, for that matter) are completely straightforward, and with access to LV machines you can also craft bulk amounts of Forestry Fertilizer to straight up not care about exactly how many stacks of wheat/rice/etc. you need because you can just slam down a stack of fertilizer like it's nothing and get more. Ingredients that deserve special attention are Lavender, Burning Blossom, Coconut and Maple Syrup
 
 Lavender is found primarily (maybe exclusively, though I couldn't swear to that) in Lavender Field biomes. Don't have a Nature's Compass to point you to the nearest one? Pick a random direction and pray. Alternatively bees might be able to cause Lavender to spawn, although I'm not sure if they can Burning Blossom is found in the Nether, although I'm not sure if any particular Y level/biome/etc. has a higher/lower chance of spawning any. So long as you don't mine ores exploring the Nether isn't too dangerous, though, and chances are you'll find some while looking for the eight Nether gardens Coconuts are a tropical Pam's fruit tree, and spawns in biomes with the WET/SWAMP tag and without the DEAD tag. Don't have a Nature's Compass to see biome tags ingame? There's sure to be at least one external source that lists GTNH biomes and there tags somewhere, otherwise look for swamp-like biomes and you ought to find it eventually. Don't bother with looking specifically for tropical or jungle type biomes, any biome with the WET/SWAMP tag will suffice and tropical biomes are exceedingly rare in the overworld. The Twilight Forest swamp is also a good place to check if you can Maple Syrup comes from Pam's trees, and they do spawn in the overworld...but given that their fruit nodes are their trunks rather than on their leaves it can be quite the challenge to find them. Fortunately you can buy a Maple sapling from the Coins tab if you're really having a rough time finding any
 
