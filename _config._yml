@@ -3,21 +3,13 @@ description: Tips and Ticks for GTNH
 baseurl: "/gtnhnotes"
 url: "https://crazedd0ge.github.io"
 
+# Build settings
 markdown: kramdown
 kramdown:
   input: GFM
+
+# Theme settings
 remote_theme: just-the-docs/just-the-docs
-
-defaults:
-  - scope:
-      path: "_guides"
-      type: "guides"
-    values:
-      layout: default
-
-collections:
-  guides:
-    output: true
 
 plugins:
   - jekyll-remote-theme
