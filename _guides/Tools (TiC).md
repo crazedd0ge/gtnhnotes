@@ -1,11 +1,6 @@
 ---
-title: Tools (TiC)
-game: "GT New Horizons"
-category: "Guide"
-created: 2025-01-16
 layout: default
-nav_order: 22
-parent: Guides
+title: Tools (Tic)
 ---
 
 # Tools (TiC)

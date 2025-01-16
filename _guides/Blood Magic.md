@@ -1,11 +1,6 @@
 ---
-title: Blood Magic
-game: "GT New Horizons"
-category: "Guide"
-created: 2025-01-16
 layout: default
-nav_order: 3
-parent: Guides
+title: Blood Magic
 ---
 
 # Blood Magic

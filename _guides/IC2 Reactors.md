@@ -1,11 +1,6 @@
 ---
-title: IC2 Reactors
-game: "GT New Horizons"
-category: "Guide"
-created: 2025-01-16
 layout: default
-nav_order: 10
-parent: Guides
+title: Ic2 Reactors
 ---
 
 # IC2 Reactors

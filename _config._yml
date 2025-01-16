@@ -52,3 +52,8 @@ nav_external_links:
   - title: GTNH Wiki
     url: https://gtnh.miraheze.org/wiki/Main_Page
     hide_icon: false
+
+just_the_docs:
+  collections:
+    guides:
+      name: Guides

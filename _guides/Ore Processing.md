@@ -1,11 +1,6 @@
 ---
-title: Ore Processing
-game: "GT New Horizons"
-category: "Guide"
-created: 2025-01-16
 layout: default
-nav_order: 12
-parent: Guides
+title: Ore Processing
 ---
 
 # Ore Processing

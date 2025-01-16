@@ -1,11 +1,6 @@
 ---
-title: TC (Aspects)
-game: "GT New Horizons"
-category: "Guide"
-created: 2025-01-16
 layout: default
-nav_order: 16
-parent: Guides
+title: Tc (Aspects)
 ---
 
 # TC (Aspects)
