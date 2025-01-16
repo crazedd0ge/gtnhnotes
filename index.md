@@ -7,22 +7,17 @@ permalink: /
 ---
 
 # GT New Horizons Guide
-{: .fs-9 }
 
 A comprehensive guide covering various aspects of GT New Horizons modpack.
-{: .fs-6 .fw-300 }
-
-[Get Started]({{ site.baseurl }}/guides/getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View on GitHub]({{ site.github.repository_url }}){: .btn .fs-5 .mb-4 .mb-md-0 }
-
----
 
 ## Guide Sections
 
-{% assign sorted_guides = site.guides | sort: "nav_order" %}
-{% for guide in sorted_guides %}
-- [{{ guide.title }}]({{ site.baseurl }}{{ guide.url }})
-{% endfor %}
+- [Bees]({{ site.baseurl }}/guides/bees)
+- [Benzene]({{ site.baseurl }}/guides/benzene)
+- [Blood Magic]({{ site.baseurl }}/guides/blood-magic)
+- [Botania]({{ site.baseurl }}/guides/botania)
+- [Circuits]({{ site.baseurl }}/guides/circuits)
+- [Food]({{ site.baseurl }}/guides/food)
 
 ## About this Guide
 
@@ -30,4 +25,4 @@ This guide is a collection of tips, tricks, and detailed information about GT Ne
 
 ## Contributing
 
-This guide is open source. You can contribute by submitting pull requests to our [GitHub repository]({{ site.github.repository_url }}).
+This guide is open source. You can contribute by submitting pull requests to our GitHub repository.
