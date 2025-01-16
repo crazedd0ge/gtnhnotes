@@ -2,6 +2,7 @@ title: GTNH Tips and Tricks
 description: Tips and Ticks for GTNH
 baseurl: "/gtnhnotes"
 url: "https://crazedd0ge.github.io"
+favicon_ico: "/assets/images/favicon.png"
 
 # Build settings
 markdown: kramdown
@@ -12,7 +13,27 @@ kramdown:
 remote_theme: just-the-docs/just-the-docs
 color_scheme: dark
 
+# Enable dark/light mode
 enable_dark_mode: true
+
+# Makes Aux links open in a new tab
+aux_links_new_tab: true
+
+callouts:
+  warning:
+    title: Warning
+    color: red
 
 plugins:
   - jekyll-remote-theme
+
+# Enable or disable the site search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
