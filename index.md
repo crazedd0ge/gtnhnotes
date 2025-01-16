@@ -14,6 +14,9 @@ This is a extracted and formatted copy of [Spreadsheet](https://docs.google.com/
 
 This content was extracted via script and therefor some tables might be abit malformed, ill fix these over time.
 
+## Last update
+This was last updated from the spreadsheet on 2025-01-16
+
 ## Guide Sections
 
 ### Base Game Mechanics
