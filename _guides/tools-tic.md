@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tools (Tic)
+title: Tools (TiC)
 ---
 
 # Tools (TiC)

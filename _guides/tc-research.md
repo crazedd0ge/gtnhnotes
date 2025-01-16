@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tc (Research)
+title: TC (Research)
 ---
 
 # TC (Research)

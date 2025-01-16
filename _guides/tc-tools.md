@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tc (Tools)
+title: TC (Tools)
 ---
 
 # TC (Tools)

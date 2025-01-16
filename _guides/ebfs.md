@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ebfs
+title: EBFs
 ---
 
 # EBFs

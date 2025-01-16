@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tc (Wands)
+title: TC (Wands)
 ---
 
 # TC (Wands)

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tc (Warp)
+title: TC (Warp)
 ---
 
 # TC (Warp)

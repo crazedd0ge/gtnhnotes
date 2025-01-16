@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ic2 Reactors
+title: IC2 Reactors
 ---
 
 # IC2 Reactors

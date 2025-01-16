@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tools (Gt)
+title: Tools (GT)
 ---
 
 # Tools (GT)

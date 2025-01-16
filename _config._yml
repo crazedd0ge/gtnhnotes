@@ -3,71 +3,21 @@ description: Tips and Ticks for GTNH
 baseurl: "/gtnhnotes"
 url: "https://crazedd0ge.github.io"
 
-# Build settings
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
-
-# Theme settings
 remote_theme: just-the-docs/just-the-docs
-color_scheme: dark
 
-# Collections
-collections:
-  guides:
-    output: true
-    permalink: /:collection/:path/
-
-# Defaults
 defaults:
   - scope:
-      path: ""
-      type: guides
+      path: "_guides"
+      type: "guides"
     values:
       layout: default
 
-# Search settings
-search_enabled: true
-search:
-  heading_level: 2
-  previews: 3
-  preview_words_before: 5
-  preview_words_after: 10
-  tokenizer_separator: /[\s/]+/
-  rel_url: true
-  button: false
-
-# Aux links for the upper right navigation
-aux_links:
-  "View on GitHub":
-    - "https://github.com/crazedd0ge/gtnhnotes"
-
-# Makes Aux links open in a new tab
-aux_links_new_tab: true
+collections:
+  guides:
+    output: true
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-github-metadata
   - jekyll-remote-theme
-
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-# Navigation
-nav_external_links:
-  - title: GTNH Wiki
-    url: https://gtnh.miraheze.org/wiki/Main_Page
-    hide_icon: false
-
-just_the_docs:
-  collections:
-    guides:
-      name: Guides

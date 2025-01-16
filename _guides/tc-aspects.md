@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tc (Aspects)
+title: TC (Aspects)
 ---
 
 # TC (Aspects)
