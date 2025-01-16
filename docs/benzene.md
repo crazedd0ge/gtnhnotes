@@ -5,6 +5,8 @@ title: Benzene
 
 # Benzene
 
+One method of producing power - and byproducts - available starting in MV is Benzene. This dense gas fuel is essentially the next logical step up from steam boilers cooking charcoal, as Benzene is also sourced from a steady supply of logs. That said the power profit, and side benefits, are much better
+
 The general idea is to produce Wood Tar (either directly, fluid extract it from charcoal, or both) and distil that into Benzene. Charcoal can be extrated into Wood Tar in an LV machine, but the distilling step requires an MV machine. And Wood Tar alone has no uses before MV. There's a myriad of ways to generate and utilize Benzene, as well as the byproducts it produces, from getting 1 steady amp of HV in MV all the way to skipping the initial...let's call it a "prototype" stage of mark I fusion power in mid-late LuV. You could probably push (at that point) Nitrobenzene even further, but realistically I wouldn't recommend it
 
 So why choose this method of producing power? There are, broadly speaking, four arguments in favor of Benzene based power: Scalability, cost, and byproducts. Much much later on renewability also becomes an argument, but not until mid-IV at the very earliest
@@ -33,9 +35,9 @@ Let me be clear: Advanced Coke Ovens are worthless. They are cheaper than Kantha
 
 ACOs are very simple multiblocks that cook logs into charcoal quickly, one per second. No byproduct creosote oil is produced, but you've probably been voiding that stuff (or not producing it at all) for a while now anyway. Input through the top, insert fuel through one of the sides, and output through the bottom One limitation of ACOs is that they can only accept a limited set of solid fuels. Realistically you'll be using charcoal to smelt charcoal, giving you a net process of 16 logs -> 15 charcoal every 16 seconds. There are other options, but none as readily available, renewable and/or not HV Assembling Machine gated
 
-| # Advanced Coke Ovens |  | Ticks/recipe |  | Logs needed/t | Ashes/h (avrg) | LV fluid extractors |  | MV distillers |  |  |  | Benzene produced (mb/t) |  | Benzene to fuel setup (mb/t) |  | EU/t profit (base fuel value) |  |
-|:---:|:---|:---:|:---|:---:|:---:|:---:|:---|:---:|:---|:---|:---|:---:|:---|:---:|:---|:---:|:---|
-| 2 |  | 320 |  | 0.1 | 675 | 2.8125 |  | 0.75 |  |  |  | 3.75 |  | 0.287037037 |  | 1246.666667 |  |
+| Advanced Coke Ovens | Ticks/recipe | Logs needed/t | Ashes/h (avrg) | LV fluid extractors | MV distillers | Benzene produced (mb/t) | Benzene to fuel setup (mb/t) | EU/t profit (base fuel value) |
+|:---------------------:|:------------:|:-------------:|:--------------:|:------------------:|:-------------:|:---------------------:|:---------------------------:|:---------------------------:|
+| 2 | 320 | 0.1 | 675 | 2.8125 | 0.75 | 3.75 | 0.287037037 | 1246.666667 |
 
 Given how straightforward this process is things should be fairly self-evident, but to clarify: Fluid Extractors extract the charcoal into Wood Tar, getting a chance at Ashes in the process, and the distillers distil the Wood Tar into Benzene. Dealing with the Ashes byproduct I'll cover later on Benzene produced is the raw amount of benzene you should expect a setup running at full tilt to produce. Benzene to fuel setup is roughly how much of that will be spend on producing the benzene, minus any wood farms or byproduct handling, assuming you're using MV gas turbines to power everything EU/t profit is the raw EU/t value of the amount of Benzene left over after powering the setup, not including any fuel efficiency penalties (or, later on, bonuses) for whatever generators you use to exract the power
 
@@ -43,18 +45,18 @@ The First Actual Benzene Power Production (Pyrolyse Oven)
 
 Once you have Kanthal Coils you're ready to start putting Pyrolyse Ovens to a serious amount of work. They're honestly cheap to produce, their only caveat is that without Kanthal Coils they will run 50% slower than normal, while stilll consuming the same amount of power. Which, for producing power, is awful Starting at Kanthal Coils Pyrolyse Ovens lose the speed penalty, and starting at Nichrome Coils start gaining a speed bonus the higher tier the coil is. That said you realistically won't be using TPV+ coils on Pyrolyse Ovens, at least for very long, since at that point you can craft the GT++ Industrial Coke Ovens
 
-| Coil Material | Cupronickel | Kanthal | Nichrome | TPV | EU/t cost |  | Collected here is a list of the amount of ticks and EU/t a Wood Tar recipe requires in a given tier of Pyrolyse Oven, both energy tier and coil tier. Cupronickel/TPV included for reference |  |  |  |  |  |  |  |  |  |  |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| MV | 1280 ticks | 640 ticks | 426 ticks | 320 ticks | 64 EU/t |  |  |  |  |  |  |  |  |  |  |  |  |
-| MV (nitrogen) | 640 ticks | 320 ticks | 213 ticks | 160 ticks | 96 EU/t |  | Two things you should take away from this is that, for one, the Nitrogen recipe is always worth using. 2x speed for 1.5x power cost is a net profit as is, let stand the further increase in profit |  |  |  |  |  |  |  |  |  |  |
-| HV | 640 ticks | 320 ticks | 213 ticks | 160 ticks | 256 EU/t |  | from producing more Wood Tar, and thus Benzene, faster per multiblock. Between the two expect at least double the power profit from using the C10 Nitrogen recipe over the C9 recipe |  |  |  |  |  |  |  |  |  |  |
-| HV (nitrogen) | 320 ticks | 160 ticks | 106 ticks | 80 ticks | 384 EU/t |  |  |  |  |  |  |  |  |  |  |  |  |
-| EV | 320 ticks | 160 ticks | 106 ticks | 80 ticks | 1024 EU/t |  | The second point is that the faster a recipe is, the less upgrading the coils makes a difference. This is part of the reason why Pyrolyse Ovens fall off when Industrial Coke Ovens become |  |  |  |  |  |  |  |  |  |  |
-| EV (nitrogen) | 160 ticks | 80 ticks | 53 ticks | 40 ticks | 1536 EU/t |  | available, as coils become more and more expensive to upgrade they contribute less and less than their last tier did. That said, early on, upgrade them. It's free power profit and energy savings |  |  |  |  |  |  |  |  |  |  |
+| Coil Material | Cupronickel | Kanthal | Nichrome | TPV | EU/t cost |
+|:--------------|:------------|:---------|:---------|:----|:----------|
+| MV | 1280 ticks | 640 ticks | 426 ticks | 320 ticks | 64 EU/t |
+| MV (nitrogen) | 640 ticks | 320 ticks | 213 ticks | 160 ticks | 96 EU/t |
+| HV | 640 ticks | 320 ticks | 213 ticks | 160 ticks | 256 EU/t |
+| HV (nitrogen) | 320 ticks | 160 ticks | 106 ticks | 80 ticks | 384 EU/t |
+| EV | 320 ticks | 160 ticks | 106 ticks | 80 ticks | 1024 EU/t |
+| EV (nitrogen) | 160 ticks | 80 ticks | 53 ticks | 40 ticks | 1536 EU/t |
 
-| Pyros (nitrogen recipe) |  | Ticks/recipe | Pyro EU/t | Logs needed/t | Ashes/h (avrg) | LV fluid extractors |  | MV distillers |  | LV compressors/centrifuges |  | Benzene produced (mb/t) |  | Benzene to fuel setup (mb/t) |  | EU/t profit (base fuel value) |  |
-|:---:|:---|:---:|:---:|:---:|:---:|:---:|:---|:---:|:---|:---:|:---|:---:|:---|:---:|:---|:---:|:---|
-| 3 |  | 53 | 1536 | 0.9056603774 | 8150.943396 | 33.96226415 |  | 15.8490566 |  | 23.22206096 |  | 79.24528302 |  | 19.74677919 |  | 21419.46138 |  |
+| Pyros (nitrogen recipe) | Ticks/recipe | Pyro EU/t | Logs needed/t | Ashes/h (avrg) | LV fluid extractors | MV distillers | LV compressors/centrifuges | Benzene produced (mb/t) | Benzene to fuel setup (mb/t) | EU/t profit (base fuel value) |
+|:-----------------------|:-------------|:-----------|:--------------|:---------------|:-------------------|:--------------|:--------------------------|:---------------------|:---------------------------|:---------------------------|
+| 3 | 53 | 1536 | 0.9056603774 | 8150.943396 | 33.96226415 | 15.8490566 | 23.22206096 | 79.24528302 | 19.74677919 | 21419.46138 |
 
 Fluid Extractors and distillers work the same as before, extracting Charcoal into Wood Tar/Ashes and turning Wood Tar into Benzene respectively. LV Compressors/Centrifuges are used to produce the required Nitrogen. They work very well in a 1:1 ratio, so they're lumped together for the sake of saving space For the record, the Benzene produced/to fuel the setup cells work exactly the same as before: Only the machines used in this block are considered, and everything being powered off of MV tier gas turbines is assumed. Using LV turbines with better fuel efficiency will decrease the setup's fuel consumption
 
@@ -82,11 +84,13 @@ Finally, circa mid-late IV, you have the option of crafting a Tree Growth Simula
 
 One of the byproducts you will be getting from producing Benzene - fluid extracting Charcoal into Wood Tar, specifically - is Ashes. At first glance they likely seem useless, but processing them can yield a wide variety of worthwhile byproducts. And processing them isn't hard to do either, so it's worth investing in Simply centrifuge the Ashes you are getting to produce a half dozen dusts that need further processing. Electrolysing works in all cases, though you might wish to directly smelt Banded Iron instead if you prefer getting more Iron than extra Oxygen. Quicklime and Phosphorous Pentoxide also have unique uses
 
-| Ashes per hour (average) |  | LV Centrifuges |  | MV Electrolyzers |  | Soda Ash/h |  | Quicklime/h |  | Potash/h |  | Magnesia/h |  | Phosphorous Pentoxide/h |  | Banded Iron Dust/h |  |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| 8151 |  | 18.86805556 |  | 1.010007014 |  | 226.4166667 |  | 2608.32 |  | 1222.65 |  | 101.8875 |  | 452.8333333 |  | 579.6266667 |  |
-| Benzene to process (mb/t) |  | mb/t Oxygen |  | Sodium/h |  | Carbon/h |  | Calcium/h |  | Potassium/h |  | Magnesium/h |  | Phosphorous/h |  | Iron/h |  |
-| 1.934080517 |  | 35.37625645 |  | 75.47222222 |  | 37.73611111 |  | 1304.16 |  | 815.1 |  | 50.94375 |  | 129.3809524 |  | 231.8506667 |  |
+| Ashes per hour (average) | LV Centrifuges | MV Electrolyzers | Soda Ash/h | Quicklime/h | Potash/h | Magnesia/h | Phosphorous Pentoxide/h | Banded Iron Dust/h |
+|:------------------------|:----------------|:-----------------|:-----------|:------------|:---------|:-----------|:----------------------|:------------------|
+| 8151 | 18.86805556 | 1.010007014 | 226.4166667 | 2608.32 | 1222.65 | 101.8875 | 452.8333333 | 579.6266667 |
+
+| Benzene to process (mb/t) | mb/t Oxygen | Sodium/h | Carbon/h | Calcium/h | Potassium/h | Magnesium/h | Phosphorous/h | Iron/h |
+|:--------------------------|:------------|:---------|:---------|:----------|:------------|:------------|:--------------|:--------|
+| 1.934080517 | 35.37625645 | 75.47222222 | 37.73611111 | 1304.16 | 815.1 | 50.94375 | 129.3809524 | 231.8506667 |
 
 As a quick reference guide of what all dusts are produced, what they're useful for and where else you'd source them from: Sodium comes from many different dusts, mainly clay or Lapis veins. Sodium has plenty of uses in turning quartz dusts into gems, chemistry, coolant cells for vacuum reactors/dynamo hatches, producing hydrogen/sodium persulfate, and more. You will never, ever, be short on sodium no matter what, though Carbon is easy to get from electrolyzing (char)coal or Dark Ashes (crafted from Pile of Ashes) from the Nether. Has a large number of uses in chemistry, crafting (SMD) Resistors, Carbon Fibre, producing alloys, and more. Carbon has so many uses you'll be sourcing more from other sources as well Calcium mainly comes from Bonemeal. It has a number of uses as a catalyst in chemistry processes, but can also be used to produce IC2 fertilizer, Calcite for Concrete, Sano/Tutamen Essentia for TC, and some lategame uses a Benzene setup is never going to see Potassium mainly comes from Rock Salt and Saltpeter. It's a component of Phthalic Acid, which is used in processing some high end bee combs and PBI, as well as the alternative Mica recipe. Other chemistry uses exist, but tend to be as a closed loop catalyst Magnesium mainly comes from Magnesite ore, from Olivine veins in the Overworld. Aside from being a chemical catalyst and lategame uses Magnsium is used in Magnalium and MV Superconductors, Sano Essentia, and de-oxydizing several dusts (mainly silicons) Phosphorous mainly comes from Overworld Apatite veins. It's used in Phosphorous Silicon Boules, Indium Gallium Phosphide, GT++ Ore Washer and Fisher multi, and several chemical processes (usually as a catalyst). Pentoxide can be used for Phosphoric Acid, for some bee combs and easier Tanned Leather Iron I trust you're well familiar with by now, both in terms of it's sources and it's uses. The only thing worth mentioning is that Banded Iron can be smelted directly into Iron, yielding a 1:1 ratio of Banded to Iron rather than the 5:3:2 ratio of Banded:Oxygen:Iron you get from electrolysing the stuff
 
@@ -124,13 +128,17 @@ The first major upgrade to a Pyrolyse Oven setup comes in HV after crafting a Cl
 
 To get the most out of your Benzene production, post-DTs, change the setup so that it is able to run off of excess Creosote Oil, Toluene, Phenol and Hydrogen (from electrolysed 1,2-Dimethylbenzene) produced. It's an ordeal to balance it, yes, but it'll turn raw Benzene production into raw Benzene profit Another thing you can do to increase power yield is combine Toluene and Hydrogen to produce Methane and Benzene. Assuming no overclocks this is a power positive process, but does require the benzene produced to be burned, at least in part, to make up for the total EU value worth of gases that went into it
 
-| Wood Tar (mb/t produced) |  | EU/t Cost (Nitrogen production) |  | HV Distillation Towers |  | MV Electrolyzers |  | mb/t Creosote Oil |  | mb/t Phenol |  | mb/t Benzene |  | mb/t Toluene |  | mb/t 1,2-dimethylbenzene |  |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| 656.25 |  | 769.2307692 |  | 26.25 |  | 42.525 |  | 164.0625 |  | 65.625 |  | 262.5 |  | 65.625 |  | 98.4375 |  |
-| EU/t profit (base fuel value) |  | EU/t cost (Fluid Extractors) |  | LV fluid extractors |  | LV compressors/centrifuges |  | EU/t (Semifluid Gens) |  | EU/t (Phenol, Gas Turbine) |  | EU/t (Benzene, Gas Turbine) |  | EU/t (Toluene, Gas Turbine) |  | EU/t (Hydrogen, Gas Turbine) |  |
-| 144001.9344 |  | 1800 |  | 112.5 |  | 76.92307692 |  | 7875 |  | 18900 |  | 94500 |  | 21525 |  | 19687.5 |  |
-| Fuel Efficiency |  | EU/t cost (DTs) |  | Ashes per hour (average) |  | Logs per tick consumed |  | Large Semifluid Burners |  |  |  |  |  |  |  |  |  |
-| 0.85 |  | 6720 |  | 27000 |  | 3 |  | 1 |  |  |  |  |  |  |  |  |  |
+| Wood Tar (mb/t produced) | EU/t Cost (Nitrogen production) | HV Distillation Towers | MV Electrolyzers | mb/t Creosote Oil | mb/t Phenol | mb/t Benzene | mb/t Toluene | mb/t 1,2-dimethylbenzene |
+|:------------------------|:--------------------------------|:----------------------|:-----------------|:------------------|:-------------|:-------------|:-------------|:------------------------|
+| 656.25 | 769.2307692 | 26.25 | 42.525 | 164.0625 | 65.625 | 262.5 | 65.625 | 98.4375 |
+
+| EU/t profit (base fuel value) | EU/t cost (Fluid Extractors) | LV fluid extractors | LV compressors/centrifuges | EU/t (Semifluid Gens) | EU/t (Phenol, Gas Turbine) | EU/t (Benzene, Gas Turbine) | EU/t (Toluene, Gas Turbine) | EU/t (Hydrogen, Gas Turbine) |
+|:-----------------------------|:----------------------------|:-------------------|:--------------------------|:--------------------|:--------------------------|:---------------------------|:---------------------------|:---------------------------|
+| 144001.9344 | 1800 | 112.5 | 76.92307692 | 7875 | 18900 | 94500 | 21525 | 19687.5 |
+
+| Fuel Efficiency | EU/t cost (DTs) | Ashes per hour (average) | Logs per tick consumed | Large Semifluid Burners |
+|:----------------|:----------------|:------------------------|:---------------------|:----------------------|
+| 0.85 | 6720 | 27000 | 3 | 1 |
 
 EU/t cost (Electrolysers) 2551.5 EU/t cost (Pyros/ICOs)
 
@@ -146,11 +154,23 @@ Industrial Coke Ovens, or "Pyroke Ovens" as I tend to call them given that they 
 
 At first glance they might seem like a straight downgrade - a quarter the recipe size compared to Pyrolyse Ovens, and no speed bonus at all? Valid points, but their benefits end up more than making up for it. For one the recipe size is smaller, but also faster. ICOs take 256 ticks to process four C10 recipes at MV, which is between a Kanthal and Nichrome Coil Pyrolyse Oven at MV. It also does this consuming only 89 EU/t rather than 96 EU/t, since ICOs have an innate tier-based energy discount. Where they really shine, however, is parallels and Batch Mode. Which requires EV tier to reach full potential:
 
-| ICO Tier: | Parallels | Ticks | EU/t cost |  | ICO Tier: | Parallels | Ticks | EU/t cost |  | ICO Tier: | Parallels | Ticks | EU/t cost |  | HV tier and C9 recipes included only for reference |  |  |
-|:---|:---:|:---:|:---|:---|:---|:---:|:---:|:---|:---|:---|:---:|:---:|:---|:---|:---|:---|:---|
-| HV | 9 | 128 | 507 EU/t |  | EV | 24 | 128 | 1291 EU/t |  | IV | 24 | 64 | 4916 EU/t |  |  |  |  |
-| HV (nitrogen) | 6 | 64 | 507 EU/t |  | EV (nitrogen) | 24 | 64 | 1936 EU/t |  | IV (nitrogen) | 24 | 32 | 7373 EU/t |  | C10 recipe is still all around better and worth using |  |  |
-| HV (N, Batch) | 12 | 128 | 507 EU/t |  | EV (N, Batch) | 48 | 128 | 1936 EU/t |  | IV (N, Batch) | 96 | 128 | 7373 EU/t |  | HV tier leaves parallels(/efficiency) on the table |  |  |
+| ICO Tier: | Parallels | Ticks | EU/t cost |
+|:----------|:---------:|:-----:|:----------|
+| HV | 9 | 128 | 507 EU/t |
+| HV (nitrogen) | 6 | 64 | 507 EU/t |
+| HV (N, Batch) | 12 | 128 | 507 EU/t |
+
+| ICO Tier: | Parallels | Ticks | EU/t cost |
+|:----------|:---------:|:-----:|:----------|
+| EV | 24 | 128 | 1291 EU/t |
+| EV (nitrogen) | 24 | 64 | 1936 EU/t |
+| EV (N, Batch) | 48 | 128 | 1936 EU/t |
+
+| ICO Tier: | Parallels | Ticks | EU/t cost |
+|:----------|:---------:|:-----:|:----------|
+| IV | 24 | 64 | 4916 EU/t |
+| IV (nitrogen) | 24 | 32 | 7373 EU/t |
+| IV (N, Batch) | 96 | 128 | 7373 EU/t |
 
 At EV tier, with C10/Batch Mode, an ICO is able to process the equivalent of 12 Pyrolse Oven recipes in 128 ticks, or ~1 recipe every 10-11 ticks. This is ~4 times faster than an EV tier Pyro oven with TPV coils, or ~2 times as fast as an EV Pyro with Naquadah Alloy coils. So, yes, a very major upgrade Of course it requires ~26% more EU/t to run, but even this is deceptive: Innate parallels (Batch Mode is purely a game performance improver, which is still good in it's own right) are very good for energy efficiency. EV ICOs spend ~20650 EU per Pyro recipe. An EV/TPV Pyro will run you 61440, or ~3x as much EU
 
@@ -170,9 +190,9 @@ To get LGTs to run optimally you need to use a Fluid Regulator to carefully supp
 
 An example: Medium Manyullyn Rotors have 130% Base Efficiency, 2500 EU/t optimal flow, and I'm feeding it Benzene. Floor(2500/360)=6. 6*360*1.3=2808 EU/t. So the optimal flow is 6mb/t Benzene for a Medium Manyullyn rotor, and it'll produce only 2808 EU/t instead of 3250 EU/t because of the awful matchup
 
-| Optimal Flow on tooltip (EU/t) |  | Fuel Efficiency |  | EU value of 1mb fuel |  | Optimal Flow in LGT (mb/t) |  | Output (EU/t) |  |  |  |  |  |  |  |  |  |
-|:---:|:---|:---:|:---|:---:|:---|:---:|:---|:---:|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| 2500 |  | 1.3 |  | 360 |  | 6 |  | 2808 |  |  |  |  |  |  |  |  |  |
+| Optimal Flow on tooltip (EU/t) | Fuel Efficiency | EU value of 1mb fuel | Optimal Flow in LGT (mb/t) | Output (EU/t) |
+|:------------------------------|:----------------|:--------------------|:--------------------------|:--------------|
+| 2500 | 1.3 | 360 | 6 | 2808 |
 
 If you feed turbines less than their optimal flow, power output and fuel efficiency will suffer. If you overfeed/overclock turbines their power output will increase, but fuel efficiency will drop. It'll likely still be better than EV/IV single blocks, but you should ideally feed LGTs their requested optimal flow exactly (for reference, though I dont understand the underlying math at all: A Medium Manyullyn Rotor fed 7mb/t benzene produces 3166 EU/t, ~125% fuel efficiency. 8mb/t produces 3494 EU/t, ~121% efficiency. 9mb/t, 3790 EU/t, ~117%. 10mb/t, 4055 EU/t, ~112%. 11mb/t, 4290 EU/t, ~108%. 12mb/t, 4492 EU/t, ~104%. The takeaway here is not to be afraid of overfeeding/overclocking your LGTs early on, if you have enough fuel to eat the efficiency cost. Running Medium Manyullyn at double optimal flow increases EU/t output by 60% at the cost of reducing fuel efficiency by only ~25%. It's not ideal, but it's worth considering)
 
@@ -200,19 +220,21 @@ Benzene is the third densest gas fuel of the ones you will ever seriously use as
 
 (note that the below numbers assume 2.6's fixed chem plant speed - in prior versions, or at least 2.5.1, the impact of coils on processing speed was not calculated correctly and resulted in chem plants being faster than intended)
 
-| C. Plant Tier | Nichrome | TPV | HSS-G | HSS-S | Naquadah | Naq. Alloy | EU/t Cost |  | This table shows the number of ticks required to finish one recipe, given an energy/coil tier and assuming the maximum number of parallels possible |  |  |  |  |  |  |  |  |
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| HV (1x Par.) | 401 | 300 | 241 | 201 | 172 | 150 | 480 |  |  |  |  |  |  |  |  |  |  |
-| EV (4x Par.) | 401 | 300 | 241 | 201 | 172 | 150 | 1920 |  | Quick overview of the Chem Plant, for the uninitiated: Machine Casings determine maximum bus/hatch tier, Pipe Casings determine maximum number of |  |  |  |  |  |  |  |  |
-| IV (8x Par.) | 401 | 300 | 241 | 201 | 172 | 150 | 3840 |  | parallels, Solid Casings determine available recipes, and coils determine speed bonus. That is all that is relevant to Nitrobenzene production |  |  |  |  |  |  |  |  |
-| LuV (8x Par.) | 200 | 150 | 120 | 100 | 86 | 75 | 15360 |  |  |  |  |  |  |  |  |  |  |
-| ZPM (8x Par.) | 100 | 75 | 60 | 50 | 43 | 37 | 61440 |  | You'll need at least Steel Pipe Casings for 4 parallels, and the maximum tier of Tungstensteel Pipe Casings for 8 parallels |  |  |  |  |  |  |  |  |
+| C. Plant Tier | Nichrome | TPV | HSS-G | HSS-S | Naquadah | Naq. Alloy | EU/t Cost |
+|:--------------|:--------:|:---:|:------:|:------:|:--------:|:----------:|:----------|
+| HV (1x Par.) | 401 | 300 | 241 | 201 | 172 | 150 | 480 |
+| EV (4x Par.) | 401 | 300 | 241 | 201 | 172 | 150 | 1920 |
+| IV (8x Par.) | 401 | 300 | 241 | 201 | 172 | 150 | 3840 |
+| LuV (8x Par.) | 200 | 150 | 120 | 100 | 86 | 75 | 15360 |
+| ZPM (8x Par.) | 100 | 75 | 60 | 50 | 43 | 37 | 61440 |
 
-| Chem Plants | Parallels | Ticks/recipe | EU/t Cost | mb/t Benzene consumed |  | mb/t Sulfuric Acid consumed |  | mb/t Nitric Acid consumed |  | mb/t Distilled Water consumed |  | Oxygen consumed (mb/t) |  | Nitrogen consumed (mb/t) |  | Hydrogen consumed (mb/t) |  |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| 2 | 8 | 300 | 3840 | 266.6666667 |  | 53.33333333 |  | 266.6666667 |  | 533.3333333 |  | 1158.290598 |  | 266.6666667 |  | 800 |  |
-| Rough power profit estimate |  | EU/t Nitrobenzene produced |  | Sulfur Dust consumed per tick |  | HV LCRs for Sulfuric Acid (C7) |  | HV LCRs for Nitric Acid (C21) |  | MV DTs for Distilled Water |  | Oxygen produced (from =>) |  | LV compressors/centrifuges |  | MV Electrolyzers |  |
-| 283860.8957 |  | 426666.6667 |  | 0.05333333333 |  | 1.540740741 |  | 85.33333333 |  | 17.06666667 |  | 68.37606838 |  | 109.4017094 |  | 34.56 |  |
+| Chem Plants | Parallels | Ticks/recipe | EU/t Cost | mb/t Benzene consumed | mb/t Sulfuric Acid consumed | mb/t Nitric Acid consumed | mb/t Distilled Water consumed | Oxygen consumed (mb/t) | Nitrogen consumed (mb/t) | Hydrogen consumed (mb/t) |
+|:------------|:----------|:-------------|:----------|:---------------------|:--------------------------|:------------------------|:----------------------------|:--------------------|:---------------------|:---------------------|
+| 2 | 8 | 300 | 3840 | 266.6666667 | 53.33333333 | 266.6666667 | 533.3333333 | 1158.290598 | 266.6666667 | 800 |
+
+| Rough power profit estimate | EU/t Nitrobenzene produced | Sulfur Dust consumed per tick | HV LCRs for Sulfuric Acid (C7) | HV LCRs for Nitric Acid (C21) | MV DTs for Distilled Water | Oxygen produced (from =>) | LV compressors/centrifuges | MV Electrolyzers |
+|:---------------------------|:---------------------------|:----------------------------|:------------------------------|:------------------------------|:-------------------------|:------------------------|:--------------------------|:----------------|
+| 283860.8957 | 426666.6667 | 0.05333333333 | 1.540740741 | 85.33333333 | 17.06666667 | 68.37606838 | 109.4017094 | 34.56 |
 
 (Oxygen consumption includes Sulfuric Acid and Nitric Acid, and deducts the amount produced as a byproduct by air centrifuging. MV Electrolysers are assumed to be electrolysing 1,2-Dimethylbenzene, seeing as how that is a very solid source of hydrogen you're all but guaranteed to have access to) (The power profit estimate does not include the cost of producing the missing amount of oxygen and sulfur dust, fuel efficiency, and has at best a loose grasp on the cost of producing benzene. Nevertheless it can be taken as confirmation that upgrading to Nitrobenzene is a drastic increase in power profit overall)
 
@@ -226,12 +248,12 @@ Condensing/Consilidating the Setup (more GT++ Multis)
 
 Expanding your (Nitro)benzene production you'll inevitably run into crazy high machine requirements, which overclocking cannot solve without hurting power efficiency, and thus power profit. The solution, once they become available, is to invest into GT++ multis to replace single block machines, or DT multis Here I'll list the GT++ multis that will prove useful in a (Nitro)benzene setup, and how many single blocks (or multis, in the case of DTs) they replace in terms of processing capacity. Meaning if a setup calls for 112.5 LV fluid extractors you need that many machines replaced worth of multi processing capacity
 
-| Energy Tier: | Processing Array (most SBs) |  | Industrial Centrifuge (compressors/centrifuges) |  |  | Large Processing Factory (fluid extractors) |  |  | Industrial Electrolyzer (1,2-D Electrolyzers) |  |  | Dangote Distillus (T2) (Wood Tar DTs) |  |  | Industrial Electrolyzer (Sugar electrolysers) |  |  |
-|:---|:---|:---|:---:|:---|:---|:---:|:---|:---|:---:|:---|:---|:---:|:---|:---|:---:|:---|:---|
-| HV | 16 LV machines |  | 40.50632911 |  | 130 EU/t | 45 |  | 308 EU/t | 16.72258065 |  | 324 EU/t | 6.666666667 |  | 512 EU/t | 16.69565217 |  | 324 EU/t |
-| EV | 64 LV machines |  | 108.1690141 |  | 692 EU/t | 120 |  | 1639 EU/t | 44.928 |  | 1728 EU/t | 26.77165354 |  | 2048 EU/t | 44.8 |  | 1728 EU/t |
-| IV | 64 MV machines |  | 271.1864407 |  | 3456 EU/t | 150 |  | 2049 EU/t | 56.19512195 |  | 2160 EU/t | 40 |  | 3072 EU/t | 56 |  | 2160 EU/t |
-| LuV | 64 HV machines |  | 654.5454545 |  | 16589 EU/t | 360 |  | 9831 EU/t | 137.1428571 |  | 10368 EU/t | 80 |  | 12288 EU/t | 135.1111111 |  | 10368 EU/t |
+| Energy Tier: | Processing Array (most SBs) | Industrial Centrifuge (compressors/centrifuges) | EU/t | Large Processing Factory (fluid extractors) | EU/t | Industrial Electrolyzer (1,2-D Electrolyzers) | EU/t | Dangote Distillus (T2) (Wood Tar DTs) | EU/t | Industrial Electrolyzer (Sugar electrolysers) | EU/t |
+|:-------------|:----------------------------|:---------------------------------------------|:-----|:------------------------------------------|:-----|:--------------------------------------------|:-----|:---------------------------------------|:-----|:--------------------------------------------|:-----|
+| HV | 16 LV machines | 40.50632911 | 130 EU/t | 45 | 308 EU/t | 16.72258065 | 324 EU/t | 6.666666667 | 512 EU/t | 16.69565217 | 324 EU/t |
+| EV | 64 LV machines | 108.1690141 | 692 EU/t | 120 | 1639 EU/t | 44.928 | 1728 EU/t | 26.77165354 | 2048 EU/t | 44.8 | 1728 EU/t |
+| IV | 64 MV machines | 271.1864407 | 3456 EU/t | 150 | 2049 EU/t | 56.19512195 | 2160 EU/t | 40 | 3072 EU/t | 56 | 2160 EU/t |
+| LuV | 64 HV machines | 654.5454545 | 16589 EU/t | 360 | 9831 EU/t | 137.1428571 | 10368 EU/t | 80 | 12288 EU/t | 135.1111111 | 10368 EU/t |
 
 Industrial Centrifuges can use Air Intake Hatches to automatically supply themselves with compressed air, removing the need for compressors entirely. Each Air Intake Hatch produces 250mb/t compressed air. You'll need one hatch per 40 compressors/centrifuges replaced, assuming my math works out
 
@@ -241,23 +263,25 @@ In 2.7 the Large Processing Factory was deprecated in favor of a slew of new mul
 
 For the record, the base stats of the LFE is 50% faster speed than a single block machine of the same voltage, and a 20% EU/t discount. In addition you can give the multi better EBF coils for a (multiplicative) +10% speed and -10% EU/t cost bonus, and give it better Solenoids to give the multi +8 parallels per tier I have, frankly, zero clue how in the world I could make a writeable let stand a readable 3D table given the three variables that matter to LHEs - energy tier, coil tier, and solenoid tier - so instead have a simple (I hope) list of EV-IV tier configurations you might use:
 
-| Energy Hatch | Coil Tier | Solenoid Tier | LV Fluid Extractors replaced: |  | EU/t cost: |  |  |  |  |  |  |  |  |  |  |  |  |
-|:---|:---|:---|:---:|:---|:---:|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| 1x HV | TPV | EV | 60 |  | 299 |  | A note on tiering: LFEs cost at least 5 stacks and 12 Tungstensteel worth of Robust Tungstensteel Machine Casings and the controller block, so consider this multi to be available around mid |  |  |  |  |  |  |  |  |  |  |
-| 1x EV | TPV | EV | 120 |  | 1195 |  | EV at the earliest. HV Solenoids will be trivial around this time, and EV Solenoids likewise will be easy if you've got enough platinum for TPV coils. IV Solenoids require a T3 rocket or meteors |  |  |  |  |  |  |  |  |  |  |
-| 1x IV | TPV | EV | 240 |  | 4778 |  | given their need for SP Coolant Cells, which requires Super Coolant, which requires Callisto Ice and Ledox dust. Both of those are native to T3 planets (or a Heavy Duty Alloy T3 meteor) |  |  |  |  |  |  |  |  |  |  |
-| 1x HV | HSS-S | EV | 64 |  | 269 |  |  |  |  |  |  |  |  |  |  |  |  |
-| 1x EV | HSS-G | EV | 137.1428571 |  | 1075 |  |  |  |  |  |  |  |  |  |  |  |  |
-| 1x IV | HSS-G | EV | 320 |  | 4300 |  |  |  |  |  |  |  |  |  |  |  |  |
-| 1x HV | HSS-S | IV | 80 |  | 336 |  |  |  |  |  |  |  |  |  |  |  |  |
-| 1x EV | HSS-G | IV | 171.4285714 |  | 1344 |  |  |  |  |  |  |  |  |  |  |  |  |
-| 1x IV | HSS-G | IV | 400 |  | 5375 |  |  |  |  |  |  |  |  |  |  |  |  |
-| 1x HV | HSS-S | EV | 137.1428571 |  | 968 | <=========== | Thinking this entry is a typo? An HV tier multi consuming 968 EU/t, surely it must be...right? It's not. The LFE shares a quirk that I've otherwise only seen before in Processing Arrays where |  |  |  |  |  |  |  |  |  |  |
-| 1x EV | HSS-S | EV | 320 |  | 3870 |  | it can utilize the full 2A that a single energy hatch provides, and increase it's processing capacity accordingly. This means that if you have a (tier) LFE because you've given it two (tier-1) |  |  |  |  |  |  |  |  |  |  |
-| 1x IV | HSS-S | EV | 960 |  | 15480 |  | energy hatches and a (tier) LFE that has a single (tier) energy hatch they could have different processing capabilities, since the former is only able to pull 1A of (tier) power whereas the latter |  |  |  |  |  |  |  |  |  |  |
-| 1x HV | HSS-S | IV | 80 |  | 303 |  | is able to pull and utilize 2A of (tier) power. I have no idea if this is a quirk with any other of the newly introduced multiblocks in 2.7, I'm frankly not sure whether or not this quirk is a bug or not, |  |  |  |  |  |  |  |  |  |  |
-| 1x EV | HSS-S | IV | 171.4285714 |  | 1210 |  | but in any case if you build an LFE with a single energy hatch and it (or other machines on the line) mysteriously complain about a shortage of power, now you know why |  |  |  |  |  |  |  |  |  |  |
-| 1x IV | HSS-S | IV | 400 |  | 4838 |  |  |  |  |  |  |  |  |  |  |  |  |
+| Energy Hatch | Coil Tier | Solenoid Tier | LV Fluid Extractors | EU/t Cost | Notes |
+|:-------------|:----------|:--------------|:-------------------|:----------|:-------|
+| 1x HV | TPV | EV | 60 | 299 | LFEs cost at least 5 stacks and 12 Tungstensteel worth of Robust Tungstensteel Machine Casings and the controller block, so consider this multi to be available around mid EV at the earliest. |
+| 1x EV | TPV | EV | 120 | 1195 | HV Solenoids will be trivial around this time, and EV Solenoids likewise will be easy if you've got enough platinum for TPV coils. IV Solenoids require a T3 rocket or meteors. |
+| 1x IV | TPV | EV | 240 | 4778 | Requires SP Coolant Cells, which needs Super Coolant, which requires Callisto Ice and Ledox dust. Both are native to T3 planets (or a Heavy Duty Alloy T3 meteor). |
+| 1x HV | HSS-S | EV | 64 | 269 | - |
+| 1x EV | HSS-G | EV | 137.14 | 1075 | - |
+| 1x IV | HSS-G | EV | 320 | 4300 | - |
+| 1x HV | HSS-S | IV | 80 | 336 | - |
+| 1x EV | HSS-G | IV | 171.43 | 1344 | - |
+| 1x IV | HSS-G | IV | 400 | 5375 | - |
+
+### Additional Information on LV Fluid Extractors (LFE)
+
+The LFE has a unique power utilization quirk:
+- It can utilize the full 2A that a single energy hatch provides
+- Processing capacity can vary based on the number of energy hatches
+- With a single energy hatch, machines might complain about power shortage
+- Unclear if this is a bug or intentional feature in version 2.7
 
 Letting the power production Loose (LGTs and the tragedy of Nerfchorium)
 

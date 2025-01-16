@@ -5,33 +5,35 @@ title: Bees
 
 # Bees
 
-| Bee Frames |  | Durability | Territory | Mutation Rate | Lifespan | Production [5] | Genetic Decay |  | Bee Real Estate |  |  | Slowest | Blinding |  |
-|:---|:---|:---:|:---:|:---:|:---:|:---|:---:|:---|:---|:---|:---|:---|:---|:---|
-| Untreated Frame |  | 80 | 1 | 1 | 1 | +1 | 0.9 |  | Apiary with nothing |  |  | 0.542 | 1.093 |  |
-| Impregnated Frame |  | 240 | 1 | 1 | 1 | +1 | 0.4 |  | Bee house |  |  | 0.872 | 1.76 |  |
-| Proven Frame |  | 720 | 1 | 1 | 1 | +1 | 0.3 |  | Alveary with nothing |  |  | 1.793 | 3.619 |  |
-| Healing Frame |  | 240 | 1 | 0.5 | 1.5 | -0.25 | 1 |  | Apiary with +1 frames |  |  | 3.23 | 6.517 |  |
-| Chocolate Frame |  | 240 | 1 | 1 | 0.75 | +0.5 | 1 |  | Apiary with +2 frames |  |  | 4.593 | 9.266 |  |
-| Restrained Frame |  | 240 | 0.5 | 1 | 0.75 | -0.25 | 1 |  | Magic Apiary with Aer/+1 frames |  |  | 4.055 | 8.181 |  |
-| Soul Frame |  | 80 | 1 | 1.5 | 0.75 | -0.75 | 1 |  | Magic Apiary with Aer/+2 frames |  |  | 5.219 | 10.53 |  |
-| Nova Frame [1] |  | 240 | 1 | 1 | 0.0001 | +0 | 1 |  | Apiary with +3 frames |  |  | 5.655 | 11.409 |  |
-| Magic Frame |  | 240 | 1 | 1 | 1 | +2 | 0.6 |  | IApiary with 0 production upgrades |  |  | 5.94 | 11.98 |  |
-| Temporal Frame |  | 300 | 1 | 1 | 2.5 | +0 | 0.8 |  | Magic Apiary with Aer/+3 frames |  |  | 6.181 | 12.472 |  |
-| Metabolic Frame |  | 130 | 1 | 1.8 | 1 | +0.2 | 1 |  | Alveary with optimal Stims |  |  | 7.826 | 15.79 |  |
-| Necrotic Frame |  | 280 | 1 | 1 | 0.3 | -0.25 | 1.2 |  | IApiary with 8 production upgrades |  |  | 9.6 | 19.38 |  |
-| Resiliant Frame |  | 800 | 1 | 1 | 1 | +2 | 0.5 |  |  |  |  |  |  |  |
-| Gentle Frame |  | 200 | 1 | 0.7 | 1.5 | +0.4 | 0.01 |  | Quick overview of the lowest and highest production bonus in a given piece of bee |  |  |  |  |  |
-| Oblivion Frame [2] |  | 50 | 1 | 1 | 0.0001 | -9001 | 1 |  | real estate. Bees with different speed genes will fall somewhere between these ranges |  |  |  |  |  |
-| Accelerated Frame |  | 175 | 1 | 1.2 | 0.9 | +0.8 | 1 |  |  |  |  |  |  |  |
-| Mutagenic Frame [3] |  | 3 | 1 | 5 | 0.0001 | +9 | 1 |  | One additional note on how bee produce works, at least as far as (limited) testing has suggested: For regular bee produce the production |  |  |  |  |  |
-| Working Frame |  | 2000 | 1 | 0 | 3 | +3 | 1 |  | chance is rolled twice - once with the percentage odds listed in NEI and the relevant modifiers applied, and a second time at half the first |  |  |  |  |  |
-| Decaying Frame |  | 240 | 1 | 1 | 1 | +0 | 10 |  | chance to produce something - and any speciality produce is rolled once with all the relevant numbers. What this means in practice is that |  |  |  |  |  |
-| Slowing Frame |  | 175 | 1 | 0.5 | 2 | -0.5 | 1 |  | regular produce should be 1.5x as common as running the numbers suggests, because of that secondary chance at 50% the original odds |  |  |  |  |  |
-| Stabilizing Frame |  | 60 | 1 | 0.1 | 1 | -0.9 | 0.5 |  |  |  |  |  |  |  |
-| Arborist Frame |  | 240 | 3 | 0 | 3 | -9001 | 1 |  | As of 2.7 WAILA can also show the average amount of "Jubilant yields" per hour when hovering over an appropriate bee block and holding |  |  |  |  |  |
-| Blood Frame [4] |  | 1 | 1 | 1 | 1 | +2 | 0.8 |  | shift. I'd guess this refers to specialty produce, given I'm not aware of a bee being Jubilant affecting anything but specialty produce, but it'll |  |  |  |  |  |
-| Maddening Frame of Frenzy [4] |  | 1 | 1 | 10 | 0.0001 | -9001 | 10 |  | happily report the average rates on non-specialty produce as well, so...not entirely sure what that's about, but a neat addition all the same |  |  |  |  |  |
-| Sanguis Artus [4] |  | 1 | 1 | 1 | 0.0001 | -9001 | 1 |  |  |  |  |  |  |  |
+Just a few random notes/tips I found out experimenting with some bee-related stuff. I'm no master of bees (or Forestry for that matter), but maybe some of the information here will be of use
+
+| Bee Frames                    | Durability | Territory | Mutation Rate | Lifespan | Production [5] | Genetic Decay |          Bee Real Estate           | Slowest | Blinding |
+| :---------------------------- | :--------- | :-------: | :-----------: | :------: | :------------: | :------------ | :--------------------------------: | :-----: | :------: |
+| Untreated Frame               | 80         |     1     |       1       |    1     |       +1       | 0.9           |        Apiary with nothing         |  0.542  |  1.093   |
+| Impregnated Frame             | 240        |     1     |       1       |    1     |       +1       | 0.4           |             Bee house              |  0.872  |   1.76   |
+| Proven Frame                  | 720        |     1     |       1       |    1     |       +1       | 0.3           |        Alveary with nothing        |  1.793  |  3.619   |
+| Healing Frame                 | 240        |     1     |      0.5      |   1.5    |     -0.25      | 1             |       Apiary with +1 frames        |  3.23   |  6.517   |
+| Chocolate Frame               | 240        |     1     |       1       |   0.75   |      +0.5      | 1             |       Apiary with +2 frames        |  4.593  |  9.266   |
+| Restrained Frame              | 240        |    0.5    |       1       |   0.75   |     -0.25      | 1             |  Magic Apiary with Aer/+1 frames   |  4.055  |  8.181   |
+| Soul Frame                    | 80         |     1     |      1.5      |   0.75   |     -0.75      | 1             |  Magic Apiary with Aer/+2 frames   |  5.219  |  10.53   |
+| Nova Frame                    | 240        |     1     |       1       |  0.0001  |       +0       | 1             |       Apiary with +3 frames        |  5.655  |  11.409  |
+| Magic Frame                   | 240        |     1     |       1       |    1     |       +2       | 0.6           | IApiary with 0 production upgrades |  5.94   |  11.98   |
+| Temporal Frame                | 300        |     1     |       1       |   2.5    |       +0       | 0.8           |  Magic Apiary with Aer/+3 frames   |  6.181  |  12.472  |
+| Metabolic Frame               | 130        |     1     |      1.8      |    1     |      +0.2      | 1             |     Alveary with optimal Stims     |  7.826  |  15.79   |
+| Necrotic Frame                | 280        |     1     |       1       |   0.3    |     -0.25      | 1.2           | IApiary with 8 production upgrades |   9.6   |  19.38   |
+| Resiliant Frame               | 800        |     1     |       1       |    1     |       +2       | 0.5           |                                    |         |          |
+| Gentle Frame                  | 200        |     1     |      0.7      |   1.5    |      +0.4      | 0.01          |                                    |         |          |
+| Oblivion Frame [2]            | 50         |     1     |       1       |  0.0001  |     -9001      | 1             |                                    |         |          |
+| Accelerated Frame             | 175        |     1     |      1.2      |   0.9    |      +0.8      | 1             |                                    |         |          |
+| Mutagenic Frame [3]           | 3          |     1     |       5       |  0.0001  |       +9       | 1             |                                    |         |          |
+| Working Frame                 | 2000       |     1     |       0       |    3     |       +3       | 1             |                                    |         |          |
+| Decaying Frame                | 240        |     1     |       1       |    1     |       +0       | 10            |                                    |         |          |
+| Slowing Frame                 | 175        |     1     |      0.5      |    2     |      -0.5      | 1             |                                    |         |          |
+| Stabilizing Frame             | 60         |     1     |      0.1      |    1     |      -0.9      | 0.5           |                                    |         |          |
+| Arborist Frame                | 240        |     3     |       0       |    3     |     -9001      | 1             |                                    |         |          |
+| Blood Frame [4]               | 1          |     1     |       1       |    1     |       +2       | 0.8           |                                    |         |          |
+| Maddening Frame of Frenzy [4] | 1          |     1     |      10       |  0.0001  |     -9001      | 10            |                                    |         |          |
+| Sanguis Artus [4]             | 1          |     1     |       1       |  0.0001  |     -9001      | 1             |                                    |         |          |
 
 Durability is how many bee ticks the frame has before it breaks. Frames in Alveary Fame Houses take 5 durability damage per bee tick. Frames have no effect on the bee tick they break. Forestry, Extra Bees and Magic Bees Frames can be repaired in a Thaumic Restorer. GT++ Frames cannot Territory is how large of a radius bees will pollinate Forestry trees. I don't believe this stat has an effect on how large of an area bees will search for valid flowers and/or spread those flowers, but I can't say for certain. Note that Bee Houses get Territoryx3 by default Mutation Rate is a multiplier to the chance that a bee mutates into another species, if the conditions for it are met. Usually this is what you want, but it can be detrimental in some cases when you want to work on getting a purebred princess/drone before mutating them further Lifespan is how long a bee lives, though I'm not sure if this effects the number of bee ticks it gets before dying or whether this effects the length of each bee tick. Or both. In any case short-lived bees are better for breeding to breed them faster, long lived bees are marginally better for production Production, speaking of, is a multiplier to the chance that bees produce something each bee tick. If this multiplier is too high there is a chance each bee tick that a Pristine queen will turn Ignoble! Production odds cap at 200% for regular produce/100% for specialty produce Genetic Decay influences the chance that overworked Pristine bees turn Ignoble if one exists at all, and I believe also the chance that an ignoble queen (won't) produce(s) a princess. If the latter is true this stat is useful to try and keep ignoble worker species around for a bit longer
 
@@ -143,9 +145,9 @@ With IApiaries crafted it's time to get to work getting the most out of them, an
 
 That said it's time to talk about the two most important upgrades IAparies have, which are not going to get bred into bees: Acceleration and Production. The former is a World Accelerator build into the IApiary (they aren't affected by external WAs). The latter is your basic production boost upgrade
 
-The key, key trick to getting the most out of your IApiaries is simply this: Prioritize Acceleration upgrades over production upgrades. In example: An IApiary with 6x Production upgrades and an IApiary with a MV tier acceleration upgrade cost basically the same amount of EU/t to run. The production boosted IApiary will have a 17.16 production multiplier, and produce something every full lifecycle. The accelerated IApiary only has a 11.98 production multiplier, but produces something (effectively) four times per full life cycle. I trust that "4*11.98 > 17.16" needs no further explanation (for the record, since production multiplier is obviously at best an indicator of items produced/unit of time: Brief testing suggests 1x MV acceleration produces items around 3 times faster than 6x production upgrades, while the latter costs (an admittedly meaningless) 2 EU/t more power to run)
+The key, key trick to getting the most out of your IApiaries is simply this: Prioritize Acceleration upgrades over production upgrades. In example: An IApiary with 6x Production upgrades and an IApiary with a MV tier acceleration upgrade cost basically the same amount of EU/t to run. The production boosted IApiary will have a 17.16 production multiplier, and produce something every full lifecycle. The accelerated IApiary only has a 11.98 production multiplier, but produces something (effectively) four times per full life cycle. I trust that "4\*11.98 > 17.16" needs no further explanation (for the record, since production multiplier is obviously at best an indicator of items produced/unit of time: Brief testing suggests 1x MV acceleration produces items around 3 times faster than 6x production upgrades, while the latter costs (an admittedly meaningless) 2 EU/t more power to run)
 
-Obviously using both at once is better, but this is where you're going to quickly break the bank with regards to power. An HV accelerated, 8x production IApiary will run you 4880 EU/t, whereas just the HV acceleration upgrade costs 808 EU/t. Again, 6*5.94 > 19.38, pretty self-explanatory
+Obviously using both at once is better, but this is where you're going to quickly break the bank with regards to power. An HV accelerated, 8x production IApiary will run you 4880 EU/t, whereas just the HV acceleration upgrade costs 808 EU/t. Again, 6\*5.94 > 19.38, pretty self-explanatory
 
 So when do you start using production upgrades? When you've got the power to spare, really. The one reason why Alvearies will never replace IApiaries as production power houses, long term, is the sheer scalability of IApiaries. Alvearies cap out at 15.79 production multiplier and zero possibility for any kind of acceleration. IApiaries don't stop scaling until UV, when their best acceleration upgrade becomes available, and long before then you should reach a point where you'd really like to spend some of these excess tens, hundreds of thousands or millions of EU/t you're producing on something productive. Like, say, boosting the production speed of bees to generate more useful resources, faster
 
@@ -197,15 +199,15 @@ Once you get to the higher tier of bee combs you'll find yourself needing acids 
 
 There's a grand total of two ways to craft Phthalic acid - the Lithium way, and the 1,2-Dimethylbenzen way. The former is viable if you're producing rocket fuel for power, basically as a byproduct, otherwise I would not recommend it at all. The 1,2-D method is the default way to produce Phthalic acid
 
-| Phthacid Acid/t | Acid EV LCRs | Potassium Dichromate Dust/t |  | PDD HV LCRs | Chromium Trioxide dust/t |  | CrO3 MV LCRs | Chromium Dioxide dust/t |  | CrO2 LV LCRs | Chrome dust/t |  |  | C9 HV LCRs (NO + O -> NO2) |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| 10 | 1 | 0.001111111111 |  | 0.0101010101 | 0.0008080808081 |  | 0.0202020202 | 0.0006060606061 |  | 0.1616161616 | 0.000202020202 |  |  | 0.001795735129 |
-|  |  | mb/t Oxygen consumed |  |  | mb/t Oxygen produced |  |  | mb/t Oxygen consumed |  |  | mb/t Oxygen consumed |  |  | C24 LV LCRs (NO2 + O + H2O -> Nitric Acid) |
-|  |  | 60 |  |  | 0.303030303 |  |  | 0.202020202 |  |  | 0.404040404 |  |  | 0.03232323232 |
-| EU/t cost |  | mb/t 1,2-Dimethylbenzen |  |  | Potassium Nitrate|Saltpeter/t |  |  |  |  |  |  |  |  | C1 LV LCR (K + Nitric Acid -> Potassium Nitrate) |
-| 1932.121212 |  | 10 |  |  | 0.00101010101 |  |  |  |  |  |  |  |  | 0.0202020202 |
-| Nitric loop cost |  |  |  |  | mb/t Nitric Oxide produced |  |  |  |  |  | Total mb/t oxygen deficit |  |  | Nitric loop total mb/t oxygen deficit |
-| 1.62962963 |  |  |  |  | 0.202020202 |  |  |  |  |  | 60.3030303 |  |  | 60.60606061 |
+| Phthacid Acid/t  | Acid EV LCRs | Potassium Dichromate Dust/t |     | PDD HV LCRs  | Chromium Trioxide dust/t   |             | CrO3 MV LCRs | Chromium Dioxide dust/t |     | CrO2 LV LCRs | Chrome dust/t             |     |     | C9 HV LCRs (NO + O -> NO2)                 |
+| :--------------- | :----------- | :-------------------------- | :-- | :----------- | :------------------------- | :---------- | :----------- | :---------------------- | :-- | :----------- | :------------------------ | :-- | :-- | :----------------------------------------- | ------------------------------------------------ |
+| 10               | 1            | 0.001111111111              |     | 0.0101010101 | 0.0008080808081            |             | 0.0202020202 | 0.0006060606061         |     | 0.1616161616 | 0.000202020202            |     |     | 0.001795735129                             |
+|                  |              | mb/t Oxygen consumed        |     |              | mb/t Oxygen produced       |             |              | mb/t Oxygen consumed    |     |              | mb/t Oxygen consumed      |     |     | C24 LV LCRs (NO2 + O + H2O -> Nitric Acid) |
+|                  |              | 60                          |     |              | 0.303030303                |             |              | 0.202020202             |     |              | 0.404040404               |     |     | 0.03232323232                              |
+| EU/t cost        |              | mb/t 1,2-Dimethylbenzen     |     |              | Potassium Nitrate          | Saltpeter/t |              |                         |     |              |                           |     |     |                                            | C1 LV LCR (K + Nitric Acid -> Potassium Nitrate) |
+| 1932.121212      |              | 10                          |     |              | 0.00101010101              |             |              |                         |     |              |                           |     |     | 0.0202020202                               |
+| Nitric loop cost |              |                             |     |              | mb/t Nitric Oxide produced |             |              |                         |     |              | Total mb/t oxygen deficit |     |     | Nitric loop total mb/t oxygen deficit      |
+| 1.62962963       |              |                             |     |              | 0.202020202                |             |              |                         |     |              | 60.3030303                |     |     | 60.60606061                                |
 
 So the above mess is mostly straightforward, bar one point: Potassium Nitrate and Saltpeter. Saltpeter, essentially, is a combination of Potassium dust and Nitric Acid. You can use Potassium Nitrate as a way to produce Phthalic Acid while keeping the Nitric Acid in a closed loop, only actually consuming Potassium dust, or you can use this production line as a sideways method of extracting the nitric acid from saltpeter in the form of Nitric Oxide. Is it worth doing? Maybe, maybe not. The more relevant point for beekeepers is that Salt bees can produce Saltpeter. No bee can produce Potassium dust directly, the most direct method is honestly the Salt bee's saltpeter dust again. So as far as producing Phthalic acid for comb processing is concerned, given that if you're producing it you're probably neck-deep in bees anyhow, saltpeter is probably the way to go
 
@@ -218,4 +220,3 @@ The Witchery tab has more info on Witchery brews, but if you want the short, bes
 When using an Acclimatizer to add humidity tolerance to bees you can use wax capsules filled with water instead of buckets of water. You won't get the wax or the empty capsules back, but it does let you stack humidity boosters up to 64. And you're doing bees, so you've got beeswax, right?
 
 Scented Panelling taking a million years to craft in a GT Assembling Machine? The same recipe in a Carpenter takes like 3 seconds per set of panelling. Unfortunately you cannot speed up the carpenter with a circuit board like you can the squeezer Speaking of, remember that whole "Industrious bees" bit to produce pollen clusters? Wintry bees from Wintry hives, found in the exact kind of biomes those names imply, produce Frozen Combs, which can produce Crystalline Pollen Clusters. Which can also be used to produce Scented Panelling
-

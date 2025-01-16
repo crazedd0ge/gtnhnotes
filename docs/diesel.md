@@ -5,73 +5,75 @@ title: Diesel
 
 # Diesel
 
-| Chemical Reactor (Circuit 4) | 12000 | Light Fuel | ------------------------ | -------------------------------- | 160 | 30 | 12000 | Sulphuric Light Fuel | 2000 | Hydrogen | ------------------- | ----------------------- |  | 0.2 | 6 |
-|:---|:---:|:---|:---|:---|:---:|:---:|:---|:---|:---|:---|:---|:---|:---|:---:|:---:|
-| Distillery (Circuit 2) | 50 | Sulphuric Light Fuel | ------------------------ | -------------------------------- | 30 | 24 | 50 | Oil | ------------------- | -------------------------- | ------------------- | ----------------------- |  | 9 | 216 |
-| Centrifuge | 1000 | Hydrogen | ------------------------ | -------------------------------- | 352 | 10 | --------------------- | Limonite | ------------------- | Empty Cell | ------------------- | ----------------------- |  | 0.88 | 8.8 |
+| Light Fuel                   | Output (mb) | Output (name) | Byproduct (mb)           | Byproduct (name)                 | Ticks/recipe | EU/t | Input A (mb) | Input A (name)       | Input B (mb) | Input B (name) | Input C (mb)        | Input C (name)          |
+| :--------------------------- | :---------: | :------------ | :----------------------- | :------------------------------- | :----------: | :--: | :----------- | :------------------- | :----------- | :------------- | :------------------ | :---------------------- | :-- | :-: | :-: |
+| Chemical Reactor (Circuit 4) |    12000    | Light Fuel    | ------------------------ | -------------------------------- |     160      |  30  | 12000        | Sulphuric Light Fuel | 2000         | Hydrogen       | ------------------- | ----------------------- |     | 0.2 |  6  |
+
+| Distillery (Circuit 2) | 50 | Sulphuric Light Fuel | ------------------------ | -------------------------------- | 30 | 24 | 50 | Oil | ------------------- | -------------------------- | ------------------- | ----------------------- | | 9 | 216 |
+| Centrifuge | 1000 | Hydrogen | ------------------------ | -------------------------------- | 352 | 10 | --------------------- | Limonite | ------------------- | Empty Cell | ------------------- | ----------------------- | | 0.88 | 8.8 |
 
 #mb/t Needed
 
 ## Oil (fluid pump/Oil Drilling Rig)
 
-| Light Fuel per tick |  | Fuel Value/mb |  |  |  |  |  |  |  |  |  | EU/t Profit (base fuel value) |  | Total EU/t Cost |  |
-|:---:|:---|:---:|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---:|:---|:---:|:---|
-| 15 |  | 305 |  |  |  |  |  |  |  |  |  | 4344.2 |  | 230.8 |  |
+| Light Fuel per tick | Fuel Value/mb | EU/t Profit (base fuel value) | Total EU/t Cost |
+| :-----------------: | :-----------: | :---------------------------: | :-------------: |
+|         15          |      305      |            4344.2             |      230.8      |
 
 ## Diesel
 
-| Mixer | 6000 | Diesel | ------------------------ | -------------------------------- | 16 | 120 | 5000 | Light Fuel | 1000 | Heavy Fuel | ------------------- | ----------------------- |  | 0.08 | 9.6 |
-|:---|:---:|:---|:---|:---|:---:|:---:|:---|:---|:---|:---|:---|:---|:---|:---:|:---:|
-| Chemical Reactor (Circuit 4) | 12000 | Light Fuel | 1000 | Hydrogen Sulfide | 160 | 30 | 12000 | Sulphuric Light Fuel | 2000 | Hydrogen (CL) | ------------------- | ----------------------- |  | 0.3333333333 | 10 |
-| Distillery (Circuit 2) | 50 | Sulphuric Light Fuel | ------------------------ | -------------------------------- | 30 | 24 | 50 | Oil | ------------------- | -------------------------- | ------------------- | ----------------------- |  | 15 | 360 |
-| Chemical Reactor (Circuit 4) | 8000 | Heavy Fuel | 1000 | Hydrogen Sulfide | 160 | 30 | 8000 | Sulphuric Heavy Fuel | 2000 | Hydrogen (CL) | ------------------- | ----------------------- |  | 0.1 | 3 |
-| Distillery (Circuit 1) | 20 | Sulphuric Heavy Fuel | ------------------------ | -------------------------------- | 16 | 72 | 20 | Heavy Oil | ------------------- | -------------------------- | ------------------- | ----------------------- |  | 4 | 288 |
-| Centrifuge | 2000 | Heavy Oil | 1 | Sand | 300 | 30 | --------------------- | Oilsands Ore | ------------------- | -------------------------- | ------------------- | ----------------------- |  | 0.75 | 22.5 |
-| Electrolyzer | 2000 | Hydrogen (CL) | 1 | Sulfur Dust | 72 | 120 | 1000 | Hydrogen Sulfide | ------------------- | -------------------------- | ------------------- | ----------------------- |  | 0.195 | 23.4 |
+| Mixer                        | 6000  | Diesel               | ------------------------ | -------------------------------- | 16  | 120 | 5000                  | Light Fuel           | 1000                | Heavy Fuel                 | ------------------- | ----------------------- |     |     0.08     | 9.6  |
+| :--------------------------- | :---: | :------------------- | :----------------------- | :------------------------------- | :-: | :-: | :-------------------- | :------------------- | :------------------ | :------------------------- | :------------------ | :---------------------- | :-- | :----------: | :--: |
+| Chemical Reactor (Circuit 4) | 12000 | Light Fuel           | 1000                     | Hydrogen Sulfide                 | 160 | 30  | 12000                 | Sulphuric Light Fuel | 2000                | Hydrogen (CL)              | ------------------- | ----------------------- |     | 0.3333333333 |  10  |
+| Distillery (Circuit 2)       |  50   | Sulphuric Light Fuel | ------------------------ | -------------------------------- | 30  | 24  | 50                    | Oil                  | ------------------- | -------------------------- | ------------------- | ----------------------- |     |      15      | 360  |
+| Chemical Reactor (Circuit 4) | 8000  | Heavy Fuel           | 1000                     | Hydrogen Sulfide                 | 160 | 30  | 8000                  | Sulphuric Heavy Fuel | 2000                | Hydrogen (CL)              | ------------------- | ----------------------- |     |     0.1      |  3   |
+| Distillery (Circuit 1)       |  20   | Sulphuric Heavy Fuel | ------------------------ | -------------------------------- | 16  | 72  | 20                    | Heavy Oil            | ------------------- | -------------------------- | ------------------- | ----------------------- |     |      4       | 288  |
+| Centrifuge                   | 2000  | Heavy Oil            | 1                        | Sand                             | 300 | 30  | --------------------- | Oilsands Ore         | ------------------- | -------------------------- | ------------------- | ----------------------- |     |     0.75     | 22.5 |
+| Electrolyzer                 | 2000  | Hydrogen (CL)        | 1                        | Sulfur Dust                      | 72  | 120 | 1000                  | Hydrogen Sulfide     | ------------------- | -------------------------- | ------------------- | ----------------------- |     |    0.195     | 23.4 |
 
 #mb/t Needed
 
 ## Oil (fluid pump/Oil Drilling Rig)
 
-| Diesel per Tick |  | Fuel Value/mb |  |  |  |  |  |  |  |  |  | EU/t Profit (base fuel value) |  | Total EU/t Cost |  |
-|:---:|:---|:---:|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---:|:---|:---:|:---|
-| 30 |  | 480 |  |  |  |  |  |  |  |  |  | 13683.5 |  | 716.5 |  |
+| Diesel per Tick |     | Fuel Value/mb |     |     |     |     |     |     |     |     |     | EU/t Profit (base fuel value) |     | Total EU/t Cost |     |
+| :-------------: | :-- | :-----------: | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :---------------------------: | :-- | :-------------: | :-- |
+|       30        |     |      480      |     |     |     |     |     |     |     |     |     |            13683.5            |     |      716.5      |     |
 
 ## Cetane-Boosted Diesel
 
-| Large Chemical Reactor (Circuit 24) | 10000 | Cetane-Boosted Diesel | ------------------------ | -------------------------------- | 120 | 480 | 10000 | Fuel (A.K.A Diesel) | 200 | Tetranitromethane | ------------------- | ----------------------- |  | 0.36 | 172.8 |
-|:---|:---:|:---|:---|:---|:---:|:---:|:---|:---|:---|:---|:---|:---|:---|:---:|:---:|
-| Mixer | 6000 | Diesel | ------------------------ | -------------------------------- | 16 | 120 | 5000 | Light Fuel | 1000 | Heavy Fuel | ------------------- | ----------------------- |  | 0.08 | 9.6 |
-| Large Chemical Reactor (Circuit 4) | 12000 | Light Fuel | 1000 | Hydrogen Sulfide | 160 | 30 | 12000 | Sulphuric Light Fuel | 2000 | Hydrogen (CL) | ------------------- | ----------------------- |  | 0.3333333333 | 10 |
-| Distillery (Circuit 2) | 50 | Sulphuric Light Fuel | ------------------------ | -------------------------------- | 30 | 24 | 50 | Oil | ------------------- | -------------------------- | ------------------- | ----------------------- |  | 15 | 360 |
-| Large Chemical Reactor (Circuit 4) | 8000 | Heavy Fuel | 1000 | Hydrogen Sulfide | 160 | 30 | 8000 | Sulphuric Heavy Fuel | 2000 | Hydrogen (CL) | ------------------- | ----------------------- |  | 0.1 | 3 |
-| Distillery (Circuit 1) | 20 | Sulphuric Heavy Fuel | ------------------------ | -------------------------------- | 16 | 72 | 20 | Heavy Oil | ------------------- | -------------------------- | ------------------- | ----------------------- |  | 4 | 288 |
-| Centrifuge | 2000 | Heavy Oil | 1 | Sand | 300 | 30 | --------------------- | Oilsands Ore | ------------------- | -------------------------- | ------------------- | ----------------------- |  | 0.75 | 22.5 |
-| Chemical Reactor (Circuit 12) | 2000 | Tetranitromethane | ------------------------ | -------------------------------- | 480 | 120 | 8000 | Nitric Acid | 1000 | Ethenone | ------------------- | ----------------------- |  | 0.144 | 17.28 |
-| Large Chemical Reactor (Circuit 24) | 1000 | Nitric Acid | ------------------------ | -------------------------------- | 320 | 30 | 1000 | Ammonia | 4000 | Oxygen | ------------------- | ----------------------- |  | 0.768 | 23.04 |
-| Large Chemical Reactor | 1000 | Ammonia | ------------------------ | -------------------------------- | 320 | 384 | 3000 | Hydrogen | 1000 | Nitrogen | ------------------- | ----------------------- |  | 0.768 | 294.912 |
-| Chemical Reactor (Circuit 1) | 1000 | Ethenone | 1000 | Diluted Sulphuric Acid | 160 | 120 | 1000 | Sulphuric Acid | 1000 | Acetic Acid | ------------------- | ----------------------- |  | 0.048 | 5.76 |
-| Large Chemical Reactor (Circuit 7) | 9000 | Sulphuric Acid | ------------------------ | -------------------------------- | 260 | 480 | 27000 | Oxygen | 9000 | Water | 9 | Sulfur Dust |  | 0.008666666667 | 4.16 |
-| Large Chemical reactor (Circuit 24) | 1000 | Acetic Acid | ------------------------ | -------------------------------- | 480 | 30 | 4000 | Hydrogen | 2000 | Oxygen | 2 | Carbon Dust |  | 0.144 | 4.32 |
-| Centrifuge/Compressor combo | 3900 | Nitrogen | 1000 | Oxygen | 1600 | 9 | --------------------- | ------------------------------ | ------------------- | -------------------------- | ------------------- | ----------------------- |  | 0.9846153846 | 8.861538462 |
-| Large Chemical Reactor (Circuit 11) | 40000 | Hydrogen | 5000 | CO2 Gas | 175 | 480 | 5000 | Methane Gas | 10000 | Water | ------------------- | ----------------------- |  | 0.00525 | 0.91875 |
-| Distillery (Circuit 4) | 30 | Methane Gas | ------------------------ | -------------------------------- | 19 | 30 | 40 | Refinery Gas | ------------------- | -------------------------- | ------------------- | ----------------------- |  | 0.095 | 2.85 |
-| Large Chemical Reactor (Circuit 4) | 16000 | Refinery Gas | 1000 | Hydrogen Sulfide | 160 | 30 | 16000 | Natural Gas | 2000 | Hydrogen (CL) | ------------------- | ----------------------- |  | 0.002 | 0.06 |
-| Electrolyzer | 25000 | Oxygen | 2 | Carbon Dust | 448 | 60 | 25 | Sugar | ------------------- | -------------------------- | ------------------- | ----------------------- |  | 0.198912 | 11.93472 |
-| Electrolyzer | 2000 | Hydrogen (CL) | 1 | Sulfur Dust | 72 | 120 | 1000 | Hydrogen Sulfide | ------------------- | -------------------------- | ------------------- | ----------------------- |  | 0.1959 | 23.508 |
+| Large Chemical Reactor (Circuit 24) | 10000 | Cetane-Boosted Diesel | ------------------------ | -------------------------------- | 120  | 480 | 10000                 | Fuel (A.K.A Diesel)            | 200                 | Tetranitromethane          | ------------------- | ----------------------- |     |      0.36      |    172.8    |
+| :---------------------------------- | :---: | :-------------------- | :----------------------- | :------------------------------- | :--: | :-: | :-------------------- | :----------------------------- | :------------------ | :------------------------- | :------------------ | :---------------------- | :-- | :------------: | :---------: |
+| Mixer                               | 6000  | Diesel                | ------------------------ | -------------------------------- |  16  | 120 | 5000                  | Light Fuel                     | 1000                | Heavy Fuel                 | ------------------- | ----------------------- |     |      0.08      |     9.6     |
+| Large Chemical Reactor (Circuit 4)  | 12000 | Light Fuel            | 1000                     | Hydrogen Sulfide                 | 160  | 30  | 12000                 | Sulphuric Light Fuel           | 2000                | Hydrogen (CL)              | ------------------- | ----------------------- |     |  0.3333333333  |     10      |
+| Distillery (Circuit 2)              |  50   | Sulphuric Light Fuel  | ------------------------ | -------------------------------- |  30  | 24  | 50                    | Oil                            | ------------------- | -------------------------- | ------------------- | ----------------------- |     |       15       |     360     |
+| Large Chemical Reactor (Circuit 4)  | 8000  | Heavy Fuel            | 1000                     | Hydrogen Sulfide                 | 160  | 30  | 8000                  | Sulphuric Heavy Fuel           | 2000                | Hydrogen (CL)              | ------------------- | ----------------------- |     |      0.1       |      3      |
+| Distillery (Circuit 1)              |  20   | Sulphuric Heavy Fuel  | ------------------------ | -------------------------------- |  16  | 72  | 20                    | Heavy Oil                      | ------------------- | -------------------------- | ------------------- | ----------------------- |     |       4        |     288     |
+| Centrifuge                          | 2000  | Heavy Oil             | 1                        | Sand                             | 300  | 30  | --------------------- | Oilsands Ore                   | ------------------- | -------------------------- | ------------------- | ----------------------- |     |      0.75      |    22.5     |
+| Chemical Reactor (Circuit 12)       | 2000  | Tetranitromethane     | ------------------------ | -------------------------------- | 480  | 120 | 8000                  | Nitric Acid                    | 1000                | Ethenone                   | ------------------- | ----------------------- |     |     0.144      |    17.28    |
+| Large Chemical Reactor (Circuit 24) | 1000  | Nitric Acid           | ------------------------ | -------------------------------- | 320  | 30  | 1000                  | Ammonia                        | 4000                | Oxygen                     | ------------------- | ----------------------- |     |     0.768      |    23.04    |
+| Large Chemical Reactor              | 1000  | Ammonia               | ------------------------ | -------------------------------- | 320  | 384 | 3000                  | Hydrogen                       | 1000                | Nitrogen                   | ------------------- | ----------------------- |     |     0.768      |   294.912   |
+| Chemical Reactor (Circuit 1)        | 1000  | Ethenone              | 1000                     | Diluted Sulphuric Acid           | 160  | 120 | 1000                  | Sulphuric Acid                 | 1000                | Acetic Acid                | ------------------- | ----------------------- |     |     0.048      |    5.76     |
+| Large Chemical Reactor (Circuit 7)  | 9000  | Sulphuric Acid        | ------------------------ | -------------------------------- | 260  | 480 | 27000                 | Oxygen                         | 9000                | Water                      | 9                   | Sulfur Dust             |     | 0.008666666667 |    4.16     |
+| Large Chemical reactor (Circuit 24) | 1000  | Acetic Acid           | ------------------------ | -------------------------------- | 480  | 30  | 4000                  | Hydrogen                       | 2000                | Oxygen                     | 2                   | Carbon Dust             |     |     0.144      |    4.32     |
+| Centrifuge/Compressor combo         | 3900  | Nitrogen              | 1000                     | Oxygen                           | 1600 |  9  | --------------------- | ------------------------------ | ------------------- | -------------------------- | ------------------- | ----------------------- |     |  0.9846153846  | 8.861538462 |
+| Large Chemical Reactor (Circuit 11) | 40000 | Hydrogen              | 5000                     | CO2 Gas                          | 175  | 480 | 5000                  | Methane Gas                    | 10000               | Water                      | ------------------- | ----------------------- |     |    0.00525     |   0.91875   |
+| Distillery (Circuit 4)              |  30   | Methane Gas           | ------------------------ | -------------------------------- |  19  | 30  | 40                    | Refinery Gas                   | ------------------- | -------------------------- | ------------------- | ----------------------- |     |     0.095      |    2.85     |
+| Large Chemical Reactor (Circuit 4)  | 16000 | Refinery Gas          | 1000                     | Hydrogen Sulfide                 | 160  | 30  | 16000                 | Natural Gas                    | 2000                | Hydrogen (CL)              | ------------------- | ----------------------- |     |     0.002      |    0.06     |
+| Electrolyzer                        | 25000 | Oxygen                | 2                        | Carbon Dust                      | 448  | 60  | 25                    | Sugar                          | ------------------- | -------------------------- | ------------------- | ----------------------- |     |    0.198912    |  11.93472   |
+| Electrolyzer                        | 2000  | Hydrogen (CL)         | 1                        | Sulfur Dust                      |  72  | 120 | 1000                  | Hydrogen Sulfide               | ------------------- | -------------------------- | ------------------- | ----------------------- |     |     0.1959     |   23.508    |
 
 #mb/t Needed
 
-| Oil (fluid pump/Oil Drilling Rig) | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |  |  |  |  |  |  |  |  |  |  |  |  | 25 |  |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| Natural Gas (Oil Drilling Rig) | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |  |  |  |  |  |  |  |  |  |  |  |  | 0.2 |  |
-| Sugar (Sugar Beets/Sweeds Farm) | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |  |  |  |  |  |  |  |  |  |  |  |  |  | 0.666 |
-| Carbon Dust (Sugar electrolyzing) | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |  |  |  |  |  |  |  |  |  |  |  |  |  | -0.000288 |
-| Sulfur Dust (Ore Processing) | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |  |  |  |  |  |  |  |  |  |  |  |  |  | 0.0003 |
+| Oil (fluid pump/Oil Drilling Rig) | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |     |     |     |     |     |     |     |     |     |     |     |     | 25  |           |
+| :-------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-------- |
+| Natural Gas (Oil Drilling Rig)    | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |     |     |     |     |     |     |     |     |     |     |     |     | 0.2 |           |
+| Sugar (Sugar Beets/Sweeds Farm)   | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |     |     |     |     |     |     |     |     |     |     |     |     |     | 0.666     |
+| Carbon Dust (Sugar electrolyzing) | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |     |     |     |     |     |     |     |     |     |     |     |     |     | -0.000288 |
+| Sulfur Dust (Ore Processing)      | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |     |     |     |     |     |     |     |     |     |     |     |     |     | 0.0003    |
 
-| Cetane-Boosted Diesel per Tick |  | Fuel Value/mb |  | # Circuit 4 LCRs |  |  |  |  |  |  |  | EU/t Profit (base fuel value) |  | Total EU/t Cost |  |
-|:---:|:---|:---:|:---|:---:|:---|:---|:---|:---|:---|:---|:---|:---:|:---|:---:|:---|
-| 30 |  | 1000 |  | 0.4353333333 |  |  |  |  |  |  |  | 28736.49499 |  | 1263.505008 |  |
+| Cetane-Boosted Diesel per Tick |     | Fuel Value/mb |     | # Circuit 4 LCRs |     |     |     |     |     |     |     | EU/t Profit (base fuel value) |     | Total EU/t Cost |     |
+| :----------------------------: | :-- | :-----------: | :-- | :--------------: | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :---------------------------: | :-- | :-------------: | :-- |
+|               30               |     |     1000      |     |   0.4353333333   |     |     |     |     |     |     |     |          28736.49499          |     |   1263.505008   |     |
 
 Note that this is not necessarily the optimal layout of machines for producing Cetane-Boosted Diesel, but it's the simplest (at least that I've found) for adding to a spreadsheet. Otherwise circular dependencies happen and everything is ruined forever
 
@@ -91,9 +93,9 @@ Once you start collecting information about what fluid fields are nearby you'll 
 
 First off, let's make this whole "field density" aspect a bit more intuitive than comparing 226-376 and 256-413. Ultimately you don't need to do this, "bigger number = more better" works, but it makes it less confusing. To calculate what I like to refer to as the richness of a fluid field, add the two numbers given by Seismic Prospectors/Journeymap together, divide by 2, divide that by the maximum amount of fluid that is listed in NEI for that type of fluid field, then finally multiply by 100 to get a fluid field's richness as a 0-100% value relative to a field's maximum. Sounds complicated? I'll throw in a calculator
 
-| Left Number (L value of a fluid field's worst chunk) |  | Right Number (L value of a fluid field's best chunk) |  |  | Field's average maximum L value (right number listed in NEI) |  |  |  |  | Field's Richness |  |  | (for the record, this is calculating the richness of |  |  |
-|:---:|:---|:---:|:---|:---|:---:|:---|:---|:---|:---|:---:|:---|:---|:---|:---|:---|
-| 256 |  | 413 |  |  | 400 |  |  |  |  | 83.625 |  |  | a Chlorobenzene field on Mars) |  |  |
+| Left Number (L value of a fluid field's worst chunk) |     | Right Number (L value of a fluid field's best chunk) |     |     | Field's average maximum L value (right number listed in NEI) |     |     |     |     | Field's Richness |     |     | (for the record, this is calculating the richness of |     |     |
+| :--------------------------------------------------: | :-- | :--------------------------------------------------: | :-- | :-- | :----------------------------------------------------------: | :-- | :-- | :-- | :-- | :--------------: | :-- | :-- | :--------------------------------------------------- | :-- | :-- |
+|                         256                          |     |                         413                          |     |     |                             400                              |     |     |     |     |      83.625      |     |     | a Chlorobenzene field on Mars)                       |     |     |
 
 Confused why a field that has a listed maximum of 400 can exceed 400? Simple answer, at least what I think is the answer: The number listed in NEI is the maxium average of a field, not the maximum of an individual chunk. Individual chunks can go higher, but in turn other chunks will invariably be lower
 
@@ -107,41 +109,41 @@ If you have a sufficiently rich field, how do you make the most use out of it? T
 
 That all said, how do you turn the various fluids you can pump from various places into usable power? And for that matter, what is the best one to look around for? The answer to the latter question is Raw Oil, which is why it gets a special block all to itself further down. For the rest, here's a quick overview:
 
-| Natural gas pumping rate (mb/t) | LV Chemical reactors |  | MV Electrolysers |  | EU/t profit (Refinery Gas, base fuel value) |  |  |  |  |  |  |  |  |  |  |
-|:---:|:---:|:---|:---:|:---|:---:|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| 100 | 1 |  | 0.45 |  | 15791.55556 |  |  |  |  |  |  |  |  |  |  |
+| Natural gas pumping rate (mb/t) | LV Chemical reactors |     | MV Electrolysers |     | EU/t profit (Refinery Gas, base fuel value) |     |     |     |     |     |     |     |     |     |     |
+| :-----------------------------: | :------------------: | :-- | :--------------: | :-- | :-----------------------------------------: | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+|               100               |          1           |     |       0.45       |     |                 15791.55556                 |     |     |     |     |     |     |     |     |     |     |
 
 Natural gas has only half the maximum density of other overworld fluid fields and isn't a very dense fuel, but it is supremely easy to turn into said fuel. Be careful using it for remote miners or very power demanding setups like EBFs, however. You might need a thicker pipe and better pump to compensate For the record, you don't have to worry about running out of natural gas any time soon if you find a good source. It is less dense than oil fields, but a reasonably rich field - ~71.7% richness - will still yield in the order of 2 million buckets of Natural Gas total. Ross128b has denser natural gas fields, as well
 
-| Light Oil pumping rate (mb/t) | LV Distilleries (Sulfuric Gas) |  | Sulfuric Gas (mb/t) |  | LV Chemical reactors |  |  | MV Electrolysers |  | EU/t profit (Refinery Gas, base fuel value) |  |  |  |  |  |
-|:---:|:---:|:---|:---:|:---|:---:|:---|:---|:---:|:---|:---:|:---|:---|:---|:---|:---|
-| 60 | 12 |  | 96 |  | 0.96 |  |  | 0.432 |  | 14866.91556 |  |  |  |  |  |
+| Light Oil pumping rate (mb/t) | LV Distilleries (Sulfuric Gas) |     | Sulfuric Gas (mb/t) |     | LV Chemical reactors |     |     | MV Electrolysers |     | EU/t profit (Refinery Gas, base fuel value) |     |     |     |     |     |
+| :---------------------------: | :----------------------------: | :-- | :-----------------: | :-- | :------------------: | :-- | :-- | :--------------: | :-- | :-----------------------------------------: | :-- | :-- | :-- | :-- | :-- |
+|              60               |               12               |     |         96          |     |         0.96         |     |     |      0.432       |     |                 14866.91556                 |     |     |     |     |     |
 
 Light Oil is good for one thing and one thing only: Refinery Gas. Lots of Refinery Gas. Basically the same as above, but with much greater output potential given the denser fields of a (functionally) denser fluid. The need for distilleries is an unfortunate step, but the increased output speaks for itself
 
-| Heavy Oil pumping rate (mb/t) | MV Distilleries (Sulfuric Heavy) |  | LV Chemical reactors |  | MV Electrolysers |  |  | EU/t profit (Heavy fuel, base fuel value) |  |  | LV distilleries (Benzene) |  | EU/t profit (Benzene, base fuel value) |  |  |
-|:---:|:---:|:---|:---:|:---|:---:|:---|:---|:---:|:---|:---|:---:|:---|:---:|:---|:---|
-| 20 | 16 |  | 0.4 |  | 0.18 |  |  | 5889.955556 |  |  | 32 |  | 799.5555556 |  |  |
+| Heavy Oil pumping rate (mb/t) | MV Distilleries (Sulfuric Heavy) |     | LV Chemical reactors |     | MV Electrolysers |     |     | EU/t profit (Heavy fuel, base fuel value) |     |     | LV distilleries (Benzene) |     | EU/t profit (Benzene, base fuel value) |     |     |
+| :---------------------------: | :------------------------------: | :-- | :------------------: | :-- | :--------------: | :-- | :-- | :---------------------------------------: | :-- | :-- | :-----------------------: | :-- | :------------------------------------: | :-- | :-- |
+|              20               |                16                |     |         0.4          |     |       0.18       |     |     |                5889.955556                |     |     |            32             |     |              799.5555556               |     |     |
 
 If you're not turning heavy fuel into diesel the simplest way to get power out of it is by burning it as a semi-combustion fuel. As such a fuel it has the same fuel density as Benzene, which is respectable...but also as good as it will ever get. On top semi-fluid generators can be expensive to craft, and pump out ten times the pollution that regular combustion gens or gas gens do...but of course you're playing with pollution turned off anyhow, so that's not a factor. What is a factor is the lack of alternative fuels. You will never run semi-fluid gens off of anything but creosote oil or heavy fuel, so the moment you choose to switch over to some other fuel all of the semi-fluid gens you've crafted will become scrap for the arc furnace. There are use cases for semi-fluid generators, for sure, but don't invest too heavily into them. They are not a long term solution, unless you go all in on heavy oil/heavy fuel
 
 Also, yes, you can distil heavy fuel directly into benzene, toluene, or phenol. No, it is not worth doing that, as shown. The DT recipe equivalent runs about three times faster even accounting for the implied overclocks, so wait for DTs if you want to distil your heavy fuel within a reasonable timespan
 
-| Chlorobenzene pumping rate (mb/t) | IV LCRs |  | EU/t profit (Phenol, base fuel value) |  | EU/t profit (Diluted Hydrochloric) |  |  |  |  |  |  |  |  |  |  |
-|:---:|:---:|:---|:---:|:---|:---:|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| 768 | 0.768 |  | 221184 |  | 10752 |  |  |  |  |  |  |  |  |  |  |
+| Chlorobenzene pumping rate (mb/t) | IV LCRs |     | EU/t profit (Phenol, base fuel value) |     | EU/t profit (Diluted Hydrochloric) |     |     |     |     |     |     |     |     |     |     |
+| :-------------------------------: | :-----: | :-- | :-----------------------------------: | :-- | :--------------------------------: | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+|                768                |  0.768  |     |                221184                 |     |               10752                |     |     |     |     |     |     |     |     |     |     |
 
 Chlorobenzene is an odd duck among the fluids you can pump for power. Only appearing on Mars in fields that aren't really all that dense in the grand scheme of things, Chlorobenzene stands out because it needs even less processing than Natural Gas to turn into usable power - an LCR with a Reservoir Hatch, and that is basically it. The byproduct diluted hydrochloric can even be burned in acid generators to power either the LCR or the T4 fluid pump (though sadly not both), or distilled into hydrochloric acid. Usually chlorobenzene is pumped to yield hydrogen and chlorine, or if you want more hydrogen chemically reacted into Phenol to increase the hydrogen yield at the cost of chlorine (technically you could distil and electrolyse the hydrochloric acid for the missing chlorine and more hydrogen, or use the alternative sodium hydroxide -> salt -> sodium -> hydroxide chain), but Phenol is also a gas fuel...
 
-| Very Heavy Oil pumping rate (mb/t) | IV DTs (Heavy Oil) |  | C9 HV DTs (various oil products) |  | Sulfuric Heavy (mb/t) |  |  | Sulfuric Light (mb/t) |  | Sulfuric Naphtha (mb/t) |  | Naphthenic Acid (mb/t) |  | Sulfuric Gas (mb/t) |  |
-|:---:|:---:|:---|:---:|:---|:---:|:---|:---|:---:|:---|:---:|:---|:---:|:---|:---:|:---|
-| 62.5 | 1 |  | 9.375 |  | 93.75 |  |  | 42.1875 |  | 14.0625 |  | 4.6875 |  | 56.25 |  |
+| Very Heavy Oil pumping rate (mb/t) | IV DTs (Heavy Oil) |     | C9 HV DTs (various oil products) |     | Sulfuric Heavy (mb/t) |     |     | Sulfuric Light (mb/t) |     | Sulfuric Naphtha (mb/t) |     | Naphthenic Acid (mb/t) |     | Sulfuric Gas (mb/t) |     |
+| :--------------------------------: | :----------------: | :-- | :------------------------------: | :-- | :-------------------: | :-- | :-- | :-------------------: | :-- | :---------------------: | :-- | :--------------------: | :-- | :-----------------: | :-- |
+|                62.5                |         1          |     |              9.375               |     |         93.75         |     |     |        42.1875        |     |         14.0625         |     |         4.6875         |     |        56.25        |     |
 
 Very Heavy Oil is first accessible on Ross128b (and technically Europa, though that has weaker fields and is not habitable, meaning it takes more preparations to arrive and survive there), and stands as a shining example of how balancing a game purely by looking at spreadsheets results in systems that make no logical sense to anyone looking at how they're actually used. Heavy Oil received a heavy nerf in 2.7 because it had the potential to be crazy powerful as a semi-fluid combustion fuel...unfortunately no one remembered to check if that actually, you know, meant anything in practice. It doesn't. Yet it was nerfed all the same. This leaves Very Heavy Oil, which has zero uses beyond being a denser source of heavy oil found in a later part of the pack's progression, in an understandably awkward position. It was never worth looking at to begin with, mind, but it's listed here for posterity...I guess
 
-| Distilled Water pumping rate (mb/t) | IV C11 LCRs (CO2 + Hydrogen) |  | HV LCRs (Potassium Carbonate Dust) |  | MV Electrolysers (Carbon+Potassium Dust, Oxygen) |  |  |  | IV C1 LCRs (Methane) |  | EU/t profit (Excess Hydrogen) |  |  | Bonus Oxygen yield (mb/t) |  |
-|:---:|:---:|:---|:---:|:---|:---:|:---|:---|:---|:---:|:---|:---:|:---|:---|:---:|:---|
-| 2270 | 2.724 |  | 2.27 |  | 24.97 |  |  |  | 1.135 |  | 58625.02 |  |  | 2270 |  |
+| Distilled Water pumping rate (mb/t) | IV C11 LCRs (CO2 + Hydrogen) |     | HV LCRs (Potassium Carbonate Dust) |     | MV Electrolysers (Carbon+Potassium Dust, Oxygen) |     |     |     | IV C1 LCRs (Methane) |     | EU/t profit (Excess Hydrogen) |     |     | Bonus Oxygen yield (mb/t) |     |
+| :---------------------------------: | :--------------------------: | :-- | :--------------------------------: | :-- | :----------------------------------------------: | :-- | :-- | :-- | :------------------: | :-- | :---------------------------: | :-- | :-- | :-----------------------: | :-- |
+|                2270                 |            2.724             |     |                2.27                |     |                      24.97                       |     |     |     |        1.135         |     |           58625.02            |     |     |           2270            |     |
 
 Ever wondered if you could turn the insanely huge deposits of distilled water on Ross128b into power? Well, as it turns out you can, in fact, turn it into industrial quantities of burnable hydrogen. Do I recommend this as a power solution? Not even a little bit, but if you want to experiment with something that is definitely off the beaten path, this is an option. The bottleneck in scaling this will definitely be the electrolysers, so I'd recommend investing into a GT++ multi electrolyser - at EV tier it can process 8 recipes every 7 ticks, replacing 25 single block machines. Beyond that you will start to lose energy efficiency to overclocking, but if efficiency was a concern I suspect you wouldn't be doing this chain of processes in the first place. Another option is to tap into Ross128b's Natural Gas fields and process it into Methane, to remove the need for a recycling loop that cuts your output in half, but at that point you could simply be burning the refinery gas directly. Of course there's about a million other things you could be doing and/or have been doing for three or four tiers, too, so take the voice of sanity with a grain of salt if you're determined to run your base off of concentrated clown power
 
@@ -151,42 +153,42 @@ Ever wondered if you could turn the insanely huge deposits of distilled water on
 
 As mentioned previously Raw Oil is the most powerful fluid field to tap if you want to produce power, although getting the most out of it is going to require a fair bit of work - Raw Oil might be super free, but you'll burn through it fast if you're wasteful with it. First off, let's see how it compares on a basic level
 
-| Raw Oil pumping rate (mb/t) | LV Distilleries (Sulfuric Naphtha) |  | Sulfuric Naphtha (mb/t) |  | LV Chemical reactors |  |  | MV Electrolysers |  | EU/t profit (Naphtha, base fuel value) |  |  |  |  |  |
-|:---:|:---:|:---|:---:|:---|:---:|:---|:---|:---:|:---|:---:|:---|:---|:---|:---|:---|
-| 50 | 20 |  | 75 |  | 1 |  |  | 0.45 |  | 15811.55556 |  |  |  |  |  |
+| Raw Oil pumping rate (mb/t) | LV Distilleries (Sulfuric Naphtha) |     | Sulfuric Naphtha (mb/t) |     | LV Chemical reactors |     |     | MV Electrolysers |     | EU/t profit (Naphtha, base fuel value) |     |     |     |     |     |
+| :-------------------------: | :--------------------------------: | :-- | :---------------------: | :-- | :------------------: | :-- | :-- | :--------------: | :-- | :------------------------------------: | :-- | :-- | :-- | :-- | :-- |
+|             50              |                 20                 |     |           75            |     |          1           |     |     |       0.45       |     |              15811.55556               |     |     |     |     |     |
 
 Later on - as in, circa HV - you can replace the LV distilleries with a Distillation Tower and add Refinery Gas to your supply of burnable gas fuel. This leaves the question of what to do with the Light/Heavy Fuel, though. You could easily convert it into Diesel, as you're getting both in the perfect ratio to do that without having any excess/shortages, but non-HOG combustion fuel is notoriously difficult to scale post-EV. You could keep some around for I.E. powering remote miners, but actually turning it into usable EU straight up is going to hit a brick wall in short order. As such the solution - if you don't want to simply void excess and find another raw oil field to tap into to compensate for the lost power - is to crack the light/heavy fuel into more gas fuels. The simplest, not necessarily the best, setup I've found for this turns the light/heavy into more naphtha, LPG, and excess hydrogen. Something like this:
 
-| HV Raw Oil DTs (circuit 9 recipe) [4] | mb/t Raw | mb/t Sulfuric Heavy | mb/t N. Acid [1] | mb/t Sulfuric Light | mb/t Sulfuric Naphtha |  |  | mb/t Sulfuric Gas |  | LV LCRs to desulfurize |  | mb/t Hydrogen Sulfide |  | MV Electrolysers |  |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---|:---|:---:|:---|:---:|:---|:---:|:---|:---:|:---|
-| 42.66666667 | 1333.333333 | 133.3333333 | 33.33333333 | 666.6666667 | 2000 |  |  | 800 |  | 46.22222222 |  | 288.8888889 |  | 20.8 |  |
+| HV Raw Oil DTs (circuit 9 recipe) [4] |  mb/t Raw   | mb/t Sulfuric Heavy | mb/t N. Acid [1] | mb/t Sulfuric Light | mb/t Sulfuric Naphtha |     |     | mb/t Sulfuric Gas |     | LV LCRs to desulfurize |     | mb/t Hydrogen Sulfide |     | MV Electrolysers |     |
+| :-----------------------------------: | :---------: | :-----------------: | :--------------: | :-----------------: | :-------------------: | :-- | :-- | :---------------: | :-- | :--------------------: | :-- | :-------------------: | :-- | :--------------: | :-- |
+|              42.66666667              | 1333.333333 |     133.3333333     |   33.33333333    |     666.6666667     |         2000          |     |     |        800        |     |      46.22222222       |     |      288.8888889      |     |       20.8       |     |
 
-| Heavy fuel moderate hydro-cracking | #HV OCU [5] | mb/t hydrogen | #MV DTs | Total mb/t Light fuel | Total mb/t Naphtha (so far) |  |  | mb/t Butane |  | mb/t Propane |  | mb/t ethane |  | mb/t methane |  |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-|  | 5.333333333 | 426.6666667 | 16 | 720 | 2053.333333 |  |  | 20 |  | 20 |  | 13.33333333 |  | 13.33333333 |  |
-| Light fuel moderate hydro-cracking | #HV OCU [5] | mb/t hydrogen | #MV DTs | mb/t Octane [1] | Total mb/t Naphtha |  |  | Total mb/t Butane |  | Total mb/t Propane |  | Total mb/t ethane |  | Total mb/t methane |  |
-|  | 28.8 | 2304 | 86.4 | 14.4 | 2413.333333 |  |  | 164 |  | 812 |  | 301.3333333 |  | 301.3333333 |  |
-| Byproduct processing | #LV LPG centrifuges (Butane+Propane) |  |  | mb/t LPG | #MV electrolysers (Ethane) |  |  | #MV electrolysers (Methane) [3] |  | #HV C11 LCR (Methane) [3] |  | mb/t distilled water [3] |  | mb/t hydrogen profit |  |
-|  | 61 |  |  | 1037.837838 | 38.57066667 |  |  | 24.10666667 |  | 12.05333333 |  | 602.6666667 |  | 1488 |  |
+| Heavy fuel moderate hydro-cracking | #HV OCU [5]                          | mb/t hydrogen | #MV DTs | Total mb/t Light fuel | Total mb/t Naphtha (so far) |     |     | mb/t Butane                     |     | mb/t Propane              |     | mb/t ethane              |     | mb/t methane         |     |
+| :--------------------------------- | :----------------------------------- | :------------ | :------ | :-------------------- | :-------------------------- | :-- | :-- | :------------------------------ | :-- | :------------------------ | :-- | :----------------------- | :-- | :------------------- | :-- |
+|                                    | 5.333333333                          | 426.6666667   | 16      | 720                   | 2053.333333                 |     |     | 20                              |     | 20                        |     | 13.33333333              |     | 13.33333333          |     |
+| Light fuel moderate hydro-cracking | #HV OCU [5]                          | mb/t hydrogen | #MV DTs | mb/t Octane [1]       | Total mb/t Naphtha          |     |     | Total mb/t Butane               |     | Total mb/t Propane        |     | Total mb/t ethane        |     | Total mb/t methane   |     |
+|                                    | 28.8                                 | 2304          | 86.4    | 14.4                  | 2413.333333                 |     |     | 164                             |     | 812                       |     | 301.3333333              |     | 301.3333333          |     |
+| Byproduct processing               | #LV LPG centrifuges (Butane+Propane) |               |         | mb/t LPG              | #MV electrolysers (Ethane)  |     |     | #MV electrolysers (Methane) [3] |     | #HV C11 LCR (Methane) [3] |     | mb/t distilled water [3] |     | mb/t hydrogen profit |     |
+|                                    | 61                                   |               |         | 1037.837838           | 38.57066667                 |     |     | 24.10666667                     |     | 12.05333333               |     | 602.6666667              |     | 1488                 |     |
 
-| EU/t costs | Raw Oil DTs | Desulferize LCRs |  | Hydrogen Sulfide Electrolysers |  | Oil Cracking Units |  | Hydro cracked DTs | Butane/Propane Centrifuges |  | Ethane Electrolysers |  | Methane LCRs |  | Total EU/t Cost |
-|:---|:---:|:---:|:---|:---:|:---|:---:|:---|:---:|:---:|:---|:---:|:---|:---:|:---|:---:|
-|  | 20480 | 1386.666667 |  | 2496 |  | 8192 |  | 12288 | 305 |  | 2314.24 |  | 5785.6 |  | 53247.50667 |
+| EU/t costs | Raw Oil DTs | Desulferize LCRs |     | Hydrogen Sulfide Electrolysers |     | Oil Cracking Units |     | Hydro cracked DTs | Butane/Propane Centrifuges |     | Ethane Electrolysers |     | Methane LCRs |     | Total EU/t Cost |
+| :--------- | :---------: | :--------------: | :-- | :----------------------------: | :-- | :----------------: | :-- | :---------------: | :------------------------: | :-- | :------------------: | :-- | :----------: | :-- | :-------------: |
+|            |    20480    |   1386.666667    |     |              2496              |     |        8192        |     |       12288       |            305             |     |       2314.24        |     |    5785.6    |     |   53247.50667   |
 
-| Fuel profits (base) | EU/t Naphtha (base fuel value) |  | EU/t Refinery Gas (base fuel value) |  | EU/t LPG (base fuel value) |  |  | EU/t Hydrogen (base fuel value) |  |  |  |  | Total net EU/t profit (base fuel value) |  |  |
-|:---|:---:|:---|:---:|:---|:---:|:---|:---|:---:|:---|:---|:---|:---|:---:|:---|:---|
-|  | 530933.3333 |  | 128000 |  | 332108.1081 |  |  | 29760 |  |  |  |  | 967553.9348 |  |  |
+| Fuel profits (base) | EU/t Naphtha (base fuel value) |     | EU/t Refinery Gas (base fuel value) |     | EU/t LPG (base fuel value) |     |     | EU/t Hydrogen (base fuel value) |     |     |     |     | Total net EU/t profit (base fuel value) |     |     |
+| :------------------ | :----------------------------: | :-- | :---------------------------------: | :-- | :------------------------: | :-- | :-- | :-----------------------------: | :-- | :-- | :-- | :-- | :-------------------------------------: | :-- | :-- |
+|                     |          530933.3333           |     |               128000                |     |        332108.1081         |     |     |              29760              |     |     |     |     |               967553.9348               |     |     |
 
-| Large Gas Turbines | #LGTs (N) | EU/t | #LGTs (RG) | EU/t | #LGTs (LPG) |  | EU/t | #LGTs (Hydrogen) | EU/t |  |  |  | Total net consistent EU/t profit (HSS-E rotors) |  |  |
-|:---|:---:|:---:|:---:|:---:|:---:|:---|:---:|:---:|:---:|:---|:---|:---|:---:|:---|:---|
-| (Large/Loose HSS-E) [2] | 21 | 622797 | 5 | 148040 | 13 |  | 382356 | 1 | 29706 |  |  |  | 1129651.493 |  |  |
+| Large Gas Turbines      | #LGTs (N) |  EU/t  | #LGTs (RG) |  EU/t  | #LGTs (LPG) |     |  EU/t  | #LGTs (Hydrogen) | EU/t  |     |     |     | Total net consistent EU/t profit (HSS-E rotors) |     |     |
+| :---------------------- | :-------: | :----: | :--------: | :----: | :---------: | :-- | :----: | :--------------: | :---: | :-- | :-- | :-- | :---------------------------------------------: | :-- | :-- |
+| (Large/Loose HSS-E) [2] |    21     | 622797 |     5      | 148040 |     13      |     | 382356 |        1         | 29706 |     |     |     |                   1129651.493                   |     |     |
 
-| GT++ multi (batch mode) energy tier | LV | MV | HV | EV | IV |  | LuV | EU/t running cost per tier |  |  |  |  | (Net EU/t of just the raw Naphtha/Refinery Gas) |  |  |
-|:---|:---|:---:|:---:|:---:|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| LV LPG centrifuges replaced | 13.38582677 | 26.77165354 | 90 | 240 | --------------------------- |  | --------------------- | 27 (LV), 54 (MV), 324 (HV), 1728 (EV) |  |  |  |  | 543637.3333 |  |  |
-| MV H2S electrolysers replaced | ------------------ | 5.538461538 | 16.66115702 | 44.57142857 | 55.55905512 |  | 133.7952756 | 108 (MV), 324 (HV), 1728 (EV), 2160 (IV), 10368 (LuV) |  |  |  |  |  |  |  |
-| MV Ethane electrolysers replaced | ------------------ | 5.565217391 | 16.78688525 | 44.6984127 | 55.87301587 |  | 140.0944882 |  |  |  |  |  | (Fuel value increase from full processing chain) |  |  |
-| MV hydro cracked fuel DTs replaced | ------------------ | 3.428571429 | 13.7704918 | 41.28 | 85.03937008 |  | 180 | 120 (MV), 480 (HV), 1440 (EV), 5760 (IV), 23040 (LuV) |  |  |  |  | 1.779778311 |  |  |
+| GT++ multi (batch mode) energy tier | LV                 |     MV      |     HV      |     EV      | IV                          |     | LuV                   | EU/t running cost per tier                            |     |     |     |     | (Net EU/t of just the raw Naphtha/Refinery Gas)  |     |     |
+| :---------------------------------- | :----------------- | :---------: | :---------: | :---------: | :-------------------------- | :-- | :-------------------- | :---------------------------------------------------- | :-- | :-- | :-- | :-- | :----------------------------------------------- | :-- | :-- |
+| LV LPG centrifuges replaced         | 13.38582677        | 26.77165354 |     90      |     240     | --------------------------- |     | --------------------- | 27 (LV), 54 (MV), 324 (HV), 1728 (EV)                 |     |     |     |     | 543637.3333                                      |     |     |
+| MV H2S electrolysers replaced       | ------------------ | 5.538461538 | 16.66115702 | 44.57142857 | 55.55905512                 |     | 133.7952756           | 108 (MV), 324 (HV), 1728 (EV), 2160 (IV), 10368 (LuV) |     |     |     |     |                                                  |     |     |
+| MV Ethane electrolysers replaced    | ------------------ | 5.565217391 | 16.78688525 | 44.6984127  | 55.87301587                 |     | 140.0944882           |                                                       |     |     |     |     | (Fuel value increase from full processing chain) |     |     |
+| MV hydro cracked fuel DTs replaced  | ------------------ | 3.428571429 | 13.7704918  |    41.28    | 85.03937008                 |     | 180                   | 120 (MV), 480 (HV), 1440 (EV), 5760 (IV), 23040 (LuV) |     |     |     |     | 1.779778311                                      |     |     |
 
 Notes: [1] Naphthenic Acid and Octane are semi-fluid and combustion fuels respectively, but they're such weak fuels that it's not worth recording their fuel value. It would take far too many DTs to produce enough Acid/Octane to keep a single Semi LCE/LCE running constantly, producing a measely 6144 EU/t [2] If these numbers look bizarrely clean it's because I've used FLOOR to show how many LGTs can be fully supplied with fuel constantly. You can run additional LGTs intermittently to generate more power periodically, but this calculates how much power you can produce consistently [2] These numbers also assume the new rotor stats introduced in 2.7 (a minor difference from prior versions in most cases - HSS-E specifically got a nice 5% fuel efficiency buff), as well as utilizing the new(-ish) Loose Mode function added to LGTs in that version. This also assumes optimal flow rates [3] Directly electrolysing the methane into hydrogen will yield enough hydrogen to still make a net profit, but it will reduce the already aneamic amount of power profit that excess hydrogen generates to basically nothing. This block assumes that methane is chemically reacted with distilled water instead [4] A T2 DT++, or Dangote Distillus for those who enjoy their silly names, can process 12 circuit 9 DT recipes at 9 ticks per recipe, thanks to it's innate speed boost, at 5760 EU/t. This is equivalent to 42 and two third HV c9 DTs, if my math is correct [5] Number of OCUs getting way out of hand, but not enough so to justify crafting a mega version? Oil Cracking Units get significant energy discounts with higher tier coils, up to 50% with HSS-G. So if there is any multi you could overclock without feeling too bad about lost efficiency, it's an OCU
 
@@ -194,28 +196,28 @@ Notes: [1] Naphthenic Acid and Octane are semi-fluid and combustion fuels respec
 
 Let me just make it clear: You don't need to bother with this. You frankly don't need to bother with the whole "crack light/heavy fuel" mess either, if you're willing to just set more raw oil on fire. The only real cost there is the effort of finding another oil field worth tapping and slamming down a pump on it. All the same, if you want maximum power out of raw oil for whatever reason, it would look something like this:
 
-| Carbon Dust per tick (Ethane) | Hydrogen | #LV Methane LCRs | mb/t Methane | Carbon Dust left | #HV C11 LCR |  | Hydrogen | #LV Methane LCRs | Methane | Hydrogen left | C11 LCRs | mb/t distilled | EU/t cost | Total Distilled | Total Hydrogen |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 0.6026666667 | 1488 | 74.4 | 372 | 0.2306666667 | 14.88 |  | 2976 | 46.13333333 | 230.6666667 | 2053.333333 | 9.226666667 | 1205.333333 | 15187.2 | 1808 | 3898.666667 |
+| Carbon Dust per tick (Ethane) | Hydrogen | #LV Methane LCRs | mb/t Methane | Carbon Dust left | #HV C11 LCR |     | Hydrogen | #LV Methane LCRs |   Methane   | Hydrogen left |  C11 LCRs   | mb/t distilled | EU/t cost | Total Distilled | Total Hydrogen |
+| :---------------------------: | :------: | :--------------: | :----------: | :--------------: | :---------: | :-- | :------: | :--------------: | :---------: | :-----------: | :---------: | :------------: | :-------: | :-------------: | :------------: |
+|         0.6026666667          |   1488   |       74.4       |     372      |   0.2306666667   |    14.88    |     |   2976   |   46.13333333    | 230.6666667 |  2053.333333  | 9.226666667 |  1205.333333   |  15187.2  |      1808       |  3898.666667   |
 
 Confusing? Well it ought to be. At first you've got an excess of carbon dust, but after turning the first batch into methane into hydrogen you're suddenly short on carbon dust to do the full loop again with all the hydrogen you have, so the calculations change a bit to reflect the different bottlenecks. As for the CO2, if you really wanted to you could use the Potassium Carbonate Dust method to profitably extract carbon dust from one half CO2 and react that with the other half CO2 to create double the latter's volume in CO to burn in a gas turbine, but is it really worth it? If you think it is, go for it I guess:
 
-| Total mb/t CO2 (includes both chains) | LV Potassium Carbonate LCRs |  | MV Electrolysers |  | Carbon Dust |  | LV C1 Carbon Monoxide LCRs |  | Total CO | EU/t cost |  | EU/t profit (hydrogen) |  | EU/t profit (Carbon Monoxide) |  |
-|:---:|:---:|:---|:---:|:---|:---:|:---|:---:|:---|:---:|:---:|:---|:---:|:---|:---:|:---|
-| 904 | 18.08 |  | 9.944 |  | 0.452 |  | 18.08 |  | 452 | 1582 |  | 62786.13333 |  | 9266 |  |
+| Total mb/t CO2 (includes both chains) | LV Potassium Carbonate LCRs |     | MV Electrolysers |     | Carbon Dust |     | LV C1 Carbon Monoxide LCRs |     | Total CO | EU/t cost |     | EU/t profit (hydrogen) |     | EU/t profit (Carbon Monoxide) |     |
+| :-----------------------------------: | :-------------------------: | :-- | :--------------: | :-- | :---------: | :-- | :------------------------: | :-- | :------: | :-------: | :-- | :--------------------: | :-- | :---------------------------: | :-- |
+|                  904                  |            18.08            |     |      9.944       |     |    0.452    |     |           18.08            |     |   452    |   1582    |     |      62786.13333       |     |             9266              |     |
 
 In the exceedingly unlikely event that a series of wild, pack re-defining changes happen such that doing either of these processes is in any way, shape or form useful, rest assured that you now know how to do it. Just never mind the implied "never getting there in the first place", all things considered
 
-| Large Combustion Engine (boosted) [1] | Fuel (mb/t) | Fuel Value/mb | Efficiency |  |  |  |  |  |  |  |  |  |  |  |  |
-|:---|:---:|:---:|:---:|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| High Octane Gasoline [2] | 1 | 2500 | 2.4576 |  |  |  |  |  |  |  |  |  |  |  |  |
-| Ethanol Gasoline | 3 | 1100 | 1.8618 |  |  |  |  |  |  |  |  |  |  |  |  |
-| Cetane-Boosted Diesel | 4 | 1000 | 1.536 |  |  |  |  |  |  |  |  |  |  |  |  |
-| Gasoline | 7 | 576 | 1.5238 |  |  |  |  |  |  |  |  |  |  |  |  |
-| Ether | 7 | 537 | 1.6345 |  |  |  |  |  |  |  |  |  |  |  |  |
-| Diesel | 8 | 480 | 1.6 |  |  |  |  |  |  |  |  |  |  |  |  |
-| Bio Diesel | 12 | 320 | 1.6 |  |  |  |  |  |  |  |  |  |  |  |  |
-| Creosote Oil [3] | 512 | 8 | 1.5 |  |  |  |  |  |  |  |  |  |  |  |  |
+| Large Combustion Engine (boosted) [1] | Fuel (mb/t) | Fuel Value/mb | Efficiency |     |     |     |     |     |     |     |     |     |     |     |     |
+| :------------------------------------ | :---------: | :-----------: | :--------: | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| High Octane Gasoline [2]              |      1      |     2500      |   2.4576   |     |     |     |     |     |     |     |     |     |     |     |     |
+| Ethanol Gasoline                      |      3      |     1100      |   1.8618   |     |     |     |     |     |     |     |     |     |     |     |     |
+| Cetane-Boosted Diesel                 |      4      |     1000      |   1.536    |     |     |     |     |     |     |     |     |     |     |     |     |
+| Gasoline                              |      7      |      576      |   1.5238   |     |     |     |     |     |     |     |     |     |     |     |     |
+| Ether                                 |      7      |      537      |   1.6345   |     |     |     |     |     |     |     |     |     |     |     |     |
+| Diesel                                |      8      |      480      |    1.6     |     |     |     |     |     |     |     |     |     |     |     |     |
+| Bio Diesel                            |     12      |      320      |    1.6     |     |     |     |     |     |     |     |     |     |     |     |     |
+| Creosote Oil [3]                      |     512     |       8       |    1.5     |     |     |     |     |     |     |     |     |     |     |     |     |
 
 Notes: [1] A Large Combustion Engine, when boosted, produces 6144 EU/t. Unlike a Large Gas Turbine it will not fluxuate based on fuel values, a boosted LCE at max efficiency will produce 6144 EU/t. Depending on fuel values and consumption this means LCEs can reach >150% fuel efficiency [2] HOG in a boosted Extreme Combustion Engine consumes 8mb/t to produce 32700 EU/t, resulting in an effective fuel efficiency of 163.5% [3] GT++ adds the Large Semifluid Burner, which is basically a LCE for semi-fluids. In it Creosote Oil has a fuel value of 48EU/mb and is consumed at a rate of 85mb/t, resulting in a fuel efficiency very slightly above 150%
 
@@ -234,4 +236,3 @@ Finally you're going to need a Chemical Plant to process the Antrace, which brin
 So how much is 24mb/t peroxide, or up to 48mb/t combustion promoter? In the context of burning combustion fuel in a UCGE, actually quite a lot. Assuming you're still limited to IV tier technology, meaning a 64A IV dynamo hatch on your UCGE for power extraction limiting you to 524288 EU/t at most, you have a choice of burning 159mb/t HOG with 48mb/t promoter to get ~522235 EU/t at 131.38% fuel efficiency, or split the load between two UCGEs and burning 192mb/t HOG with 24mb/t promoter in each to produce 522816 EU/t at 108.92% fuel efficiency. Or something in between those extremes (for comparison, 24mb/t peroxide could also produce 23mb/t purple rocket fuel and 2mb/t promoter, producing ~208812 EU/t in a UCGE at 141.61% fuel efficiency. Combustion fuel can win out over rocket fuel in an UCGE if you're burning an entire warehouse of fuel, but rocket fuel scales much better)
 
 Note that the UCGE can burn any combustion/gas fuel, from HOG to hydrogen. The caveat is that the ratio of non-rocket fuel to combustion promoter stays the same, meaning that less dense fuel either needs to accept less EU/t output, set fuel efficiency on fire even more so, or increase promoter input
-

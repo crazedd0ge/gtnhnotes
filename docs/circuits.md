@@ -5,6 +5,8 @@ title: Circuits
 
 # Circuits
 
+One of the things you're going to be doing a lot, and for a very long time at that, is crafting circuits. Exactly what those machines need all that computation for isn't necessarily obvious sometimes, but if you want to industrialize, you're not escaping the need for circuits. Many, oh so very many circuits.
+
 Terminology GTNH (and Gregtech in general) groups circuits based on two things - their tier and their type, or grade as I like to use for the latter distinction. A circuit's tier is exactly that, LV tier circuits are used to craft LV tier machines, MV tier circuits craft MV tier machines, etc. A circuit's grade seemingly does not make too much of a difference for crafting purposes - an IV Mainframe and an IV Processor share 99% of their uses in recipes - but where they do differ is where it matters the absolute most: How expensive/difficult they are to craft, and whether they can be used to craft higher tiers of circuits.
 
 NEI has an overview page for all of the different circuits (and many of the circuit components) which you can access by looking up the recipe of most circuits, and clicking on the "Circuits overview" button on the Gregtech Circuits NEI tab. Circuit tiers are shown top to bottom, circuit grades are shown left to right.
@@ -61,26 +63,26 @@ Entering HV, or "The Cleanroom" HV opens up the third and final grade of MV circ
 
 ## Lens
 
-| Green |  | 2x ULPIC | 8x ULPIC | 1x ASoC | 2x ASoC | 4x ASoC | 32x ASoC | 6:1 |  | ULPIC - MV Energy/Dynamo Hatches
+| Green | | 2x ULPIC | 8x ULPIC | 1x ASoC | 2x ASoC | 4x ASoC | 32x ASoC | 6:1 | | ULPIC - MV Energy/Dynamo Hatches
 ASoC - Final Grade Alt HV/EV Circuits |
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| Yellow |  | 1x LPIC | 4x LPIC | 1x SoC | 4x SoC | 8x SoC |  | LPiC 4:1
-SoC 6:1 |  | LPIC - HV Energy/Dynamo Hatches
+| Yellow | | 1x LPIC | 4x LPIC | 1x SoC | 4x SoC | 8x SoC | | LPiC 4:1
+SoC 6:1 | | LPIC - HV Energy/Dynamo Hatches
 SoC - Final Grade Alt LV/MV Circuits |
-| Blue |  |  | 1x PIC | 4x PIC |  | 1x QPIC | 16x QPIC | PIC 4:1, Others 2:1 |  | PIC - EV Energy/Dynamo Hatches
+| Blue | | | 1x PIC | 4x PIC | | 1x QPIC | 16x QPIC | PIC 4:1, Others 2:1 | | PIC - EV Energy/Dynamo Hatches
 QPIC - UHV+ Energy/Dynamo Hatches
 PICs can be made into HPICs & UHPICs
 HPIC - IV Energy/Dynamo Hatches
 UHPIC - LuV Energy/Dynamo Hatches |
-| Red |  | 1x ILC | 4x ILC | 8x ILC | 1x NPIC | 4x NPIC | 32x NPIC | ILC 8:1, Others 2:1 |  | ILC - Grade 2 LV & Grade 1 HV Circuits
+| Red | | 1x ILC | 4x ILC | 8x ILC | 1x NPIC | 4x NPIC | 32x NPIC | ILC 8:1, Others 2:1 | | ILC - Grade 2 LV & Grade 1 HV Circuits
 NPIC - ZPM Energy/Dynamo Hatches
 NPICs can be made into PPICs
 PPIC - UV Energy/Dynamo Hatches |
-| Cyan |  | 1x RAM | 4x RAM | 8x RAM | 16x RAM | 32x RAM |  | 32:1 |  | HV-UV Non-Final Grade Circuits |
-| Endereye |  |  | 1x NOR | 4x NOR | 8x NOR | 16x NOR |  | 16:1 |  | Grade 2 IV-UV Circuits |
-| Enderpearl |  |  | 1x NAND | 4x NAND | 8x NAND | 16x NAND |  | 64:1 |  | Grade 2 ZPM Circuits |
-| Orange |  | 1x Simple SoC | 4x Simple SoC | 16x Simple SoC | 64x Simple SoC |  |  | 6:1 |  | Final Grade ULV Circuits |
-| White |  | 1x CPU | 4x CPU | 8x CPU | 16x CPU | 32x CPU |  | CPU, NCPU 8:1, QBits 4:1 |  | CPU - Final Grade LV/MV Circuits
+| Cyan | | 1x RAM | 4x RAM | 8x RAM | 16x RAM | 32x RAM | | 32:1 | | HV-UV Non-Final Grade Circuits |
+| Endereye | | | 1x NOR | 4x NOR | 8x NOR | 16x NOR | | 16:1 | | Grade 2 IV-UV Circuits |
+| Enderpearl | | | 1x NAND | 4x NAND | 8x NAND | 16x NAND | | 64:1 | | Grade 2 ZPM Circuits |
+| Orange | | 1x Simple SoC | 4x Simple SoC | 16x Simple SoC | 64x Simple SoC | | | 6:1 | | Final Grade ULV Circuits |
+| White | | 1x CPU | 4x CPU | 8x CPU | 16x CPU | 32x CPU | | CPU, NCPU 8:1, QBits 4:1 | | CPU - Final Grade LV/MV Circuits
 CPUs can be made into NCPUs & QBits
 NCPU - Final Grade HV-ZPM Circuits
 QBits - Final Grade EV Circuits |
@@ -134,4 +136,3 @@ All that complaining aside, CALs are nothing short of amazing in their own right
 To get maximum value out of your CALs you'll need circuit imprints. Note, however, that CALs imprinted to the IV, LuV and ZPM tier quantum circuits will be a temporary fixture. Once you've got Crystal grade circuits going you won't use those tiers of quantum circuits for long if ever again, so consider whether you wish to invest into that. Regardless it's at least worth it for the EV tier quantum circuit, as an EV quantum circuit imprint will work for both the basic and the later ASoC recipe. Getting circuit imprints is likely going to be quite the rabbithole, but one well worth it. CAL recipes are, effectively, 16 CAM recipes compresssed into a single recipe, while only needing 12 times as long to produce as it would in a single block CAM - basically, a 25% speed increase. Add perfect overclocks, and you'll be able to craft circuits much faster than you could before...relatively. Circuit demand isn't going to get any easier, unfortunately
 
 Crafting circuit imprints is going to be a pain, but nothing you won't be able to manage - strictly speaking there is nothing stopping you from crafting them in IV, bar the fact that without a(n LuV-gated) CAL they'd be useless. You'll need to use an EBF to craft Flawed Cubic Zirconia and Flawed Prasiolite, process Rare Earth III to get Tellurium, and grab some basic materials to smash the lot together (boron, bismuth, nothing else even worth mention to be honest). The questbook can offer further guidance in the LuV chapter, if you need it
-

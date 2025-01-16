@@ -4,8 +4,7 @@ title: Food
 ---
 
 # Food
-
-the food situation in GTNH. And, perhaps more specifically, in MC version 1.7.10
+One of the things you're going to need to manage in GTNH, especially if you're not the kind of player that writes off freely teleporting kilometers worth of distance as much as you want as "quality of life", is keeping yourself fed. And there are many ways to make it easier, or worth doing. So let's examine the food situation in GTNH. And, perhaps more specifically, in MC version 1.7.10
 
 For those used to more modern versions (although I use that term loosely, as I'm talking about MC version 1.11+ here. GTNH runs on 1.7.10 for the record) actions in general consume a lot more food than they do in later versions, with the act of walking/sneaking being a standout as consuming food at all in this version. Add on the need to simply do a lot more stuff in GTNH compared to a more vanilla-like playthrough, and you're looking at a measurable quantity of food to keep yourself fed. Not that there aren't ways, as said before, but keep in mind you are likely going to need to exceed expectations
 
